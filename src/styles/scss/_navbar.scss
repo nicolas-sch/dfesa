@@ -1,0 +1,44 @@
+.navbar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    padding-top: 18px;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    .navbar_container {
+        width: 100%;
+        display: flex;
+        max-width: 1261px;
+        align-items: center;
+        justify-content: space-between;
+        .navbar_logo {
+            width: 295px;
+            height: 60px;
+            display: flex;
+            img {
+                width: 295px;
+                height: 60px;
+            }
+        }
+        .navbar_menu {
+            display: flex;
+            align-items: center;
+            gap: 26px;
+            color: white;
+            p {
+                font-family: 'Roboto';
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 43px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

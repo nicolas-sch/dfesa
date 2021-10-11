@@ -1,23 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/scss/main.css';
+import Navbar from './components/navbar';
+import Hero from './components/hero';
+import About from './components/about';
+import News from './components/news';
+import BigNumbers from './components/bignumbers';
+import Barragem from './components/barragem';
+import Vertedouro from './components/vertedouro';
+import Casa from './components/casaForca';
+import Reservatorio from './components/reservatorio';
+import Subestacao from './components/subestacao';
+import Areas from './components/areas';
+import Tecnologia from './components/tecnologia';
+import Duvidas from './components/duvidas';
+import Footer from './components/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Hero />
+      <About />
+      <News />
+      <BigNumbers />
+      <Barragem />
+      <Vertedouro />
+      <Casa />
+      <Reservatorio />
+      <Subestacao />
+      <Areas />
+      <Tecnologia />
+      <Duvidas />
+      <Footer />
     </div>
   );
 }

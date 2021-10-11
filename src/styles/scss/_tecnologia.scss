@@ -1,0 +1,93 @@
+.tecnologia {
+    width: 100%;
+    height: 1078px;
+    background: #E7E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:-400px;
+    clip-path: polygon(49% 22%,100% 36%,100% 100%,50% 100%,0% 100%,0% 9%);
+    .tecnologia_container {
+        width: 100%;
+        display: flex;
+        max-width: 1216px;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        position: relative;
+        gap: 132px;
+      
+        .tecnologia_text {
+          width: 441px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+          h3 {
+            font-family: 'Roboto';
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 43px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #444444;
+          }
+          p {
+            width: 441px;
+            font-family: 'Roboto';
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #444444;
+          }
+        }
+        .tecnologia_image {
+          width: 603px;
+          height: auto;
+          z-index: 999;
+          overflow-y: hidden;
+          position: relative;
+          img {
+            width: 100%;
+          }
+        }
+    }
+}
+  
+  .separator_tecnologia {
+    position: relative;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .separator_tecnologia::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 200px;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+  }
+  
+  .separator_tecnologia::after {
+    position: absolute;
+    top: -200px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #E7E5E5;
+    clip-path: polygon(100% 50%, 0 100%, 100% 100%);
+  }
+  
+  .separator_tecnologia.reverse {
+    transform: rotateY(180deg);
+  }
+  
+  .vertical .separator_tecnologia.reverse {
+    transform: rotateX(180deg);
+  }

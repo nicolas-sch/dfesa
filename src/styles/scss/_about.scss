@@ -1,13 +1,14 @@
 .about {
     width: 100%;
-    height: 100vh;
+    height: auto;
     background: #EB364E;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     clip-path: polygon(49% 25%,100% 11%,100% 60%,100% 100%,0% 100%,0% 60%,0% 38%);
-    margin-top: -400px;
+    margin-top: -500px;
+    padding-bottom: 75px;
     .about_container {
         width: 100%;
         display: flex;
@@ -17,7 +18,7 @@
         margin: 0 auto;
         position: relative;
         .about_text {
-          width: 100%;
+          width: 539px;
           p {
             width: 539px;
             font-family: 'Roboto';

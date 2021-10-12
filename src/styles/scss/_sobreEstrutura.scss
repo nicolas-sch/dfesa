@@ -1,0 +1,58 @@
+.sobre_estrutura {
+    width: 100%;
+    height: 715px;
+    background: #FAF9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -170px;
+    z-index: -2000;
+    position: relative;
+    .estrutura_layer {
+        width: 100vw;
+        height: 100%;
+        background: linear-gradient(270deg, #EB364E 49.08%, rgba(235, 54, 78, 0) 100%);
+        position: absolute;
+        right: 0;
+        z-index: 99999;
+    }
+    .vector_estrutura {
+        width: 906px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        img {
+            width: 100%;
+        }
+    }
+    .sobre_estrutura_container {
+        width: 100%;
+        display: flex;
+        max-width: 1216px;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        justify-content: flex-end;
+        .sobre_estrutura_title {
+          width: 595px;
+          display: flex;
+          flex-direction: column;
+          gap: 84px;
+          z-index: 999999;
+          h3 {
+            font-family: 'Roboto';
+            font-size: 56px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0em;
+            text-align: center;
+            color: #FAF9F9;
+          }
+          img {
+              right: 0;
+          }
+        }
+    }
+}

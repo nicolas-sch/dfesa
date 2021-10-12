@@ -44,8 +44,8 @@ class Navbar extends React.Component {
                                     <img src={LogoMenu} alt="Logo Menu" />
                                 </div>
                                     <a href="/sustentabilidadeedesenvolvimento">Sustentabilidade & desenvolvimento</a>
-                                    <a href="">Sobre</a>
-                                    <a href="">FAQ e Contato</a>
+                                    <a href="/sobre">Sobre</a>
+                                    <a href="/faq">FAQ e Contato</a>
                                 </div>
                                 <div className="menu_separator"></div>
                                 <div className="menu_links_box2">

@@ -2475,6 +2475,666 @@ html {
   color: #161616;
 }
 
+.hero_sobre {
+  width: 100%;
+  height: 761px;
+  background: url(../../assets/BG_Sobre_desk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 0;
+  z-index: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+}
+
+.hero_sobre .hero_sobre_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero_sobre .hero_sobre_container .hero_sobre_text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.hero_sobre .hero_sobre_container .hero_sobre_text h2 {
+  width: 760px;
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FAF9F9;
+}
+
+.hero_sobre .hero_sobre_container .hero_sobre_text p {
+  width: 609px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FAF9F9;
+}
+
+.sobre_fazemos {
+  width: 100%;
+  height: 699px;
+  background: #FAF9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -170px;
+  z-index: -2000;
+  position: relative;
+}
+
+.sobre_fazemos .sobre_layer {
+  width: 100vw;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(65.1%, #FAF9F9), to(rgba(250, 249, 249, 0)));
+  background: linear-gradient(180deg, #FAF9F9 65.1%, rgba(250, 249, 249, 0) 100%);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute;
+  right: 0;
+  z-index: 99999;
+}
+
+.sobre_fazemos .vector_sobre {
+  width: 100vw;
+  position: absolute;
+  top: -400px;
+}
+
+.sobre_fazemos .vector_sobre img {
+  width: 100%;
+}
+
+.sobre_fazemos .sobre_fazemos_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sobre_fazemos .sobre_fazemos_container .sobre_fazemos_title {
+  width: 829px;
+  z-index: 999999;
+}
+
+.sobre_fazemos .sobre_fazemos_container .sobre_fazemos_title h3 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+  padding-bottom: 36px;
+}
+
+.sobre_fazemos .sobre_fazemos_container .sobre_fazemos_title p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+
+.sobre_fazemos .sobre_image {
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+.sobre_fazemos .sobre_image img {
+  overflow: hidden;
+}
+
+.sobre_estrutura {
+  width: 100%;
+  height: 715px;
+  background: #FAF9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -170px;
+  z-index: -2000;
+  position: relative;
+}
+
+.sobre_estrutura .estrutura_layer {
+  width: 100vw;
+  height: 100%;
+  background: -webkit-gradient(linear, right top, left top, color-stop(49.08%, #EB364E), to(rgba(235, 54, 78, 0)));
+  background: linear-gradient(270deg, #EB364E 49.08%, rgba(235, 54, 78, 0) 100%);
+  position: absolute;
+  right: 0;
+  z-index: 99999;
+}
+
+.sobre_estrutura .vector_estrutura {
+  width: 906px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.sobre_estrutura .vector_estrutura img {
+  width: 100%;
+}
+
+.sobre_estrutura .sobre_estrutura_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.sobre_estrutura .sobre_estrutura_container .sobre_estrutura_title {
+  width: 595px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 84px;
+  z-index: 999999;
+}
+
+.sobre_estrutura .sobre_estrutura_container .sobre_estrutura_title h3 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FAF9F9;
+}
+
+.sobre_estrutura .sobre_estrutura_container .sobre_estrutura_title img {
+  right: 0;
+}
+
+.sobre_desenvolvimento {
+  width: 100%;
+  height: 936px;
+  background: #161616;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -2000;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.sobre_desenvolvimento .vector_desenvolvimento {
+  width: 906px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.sobre_desenvolvimento .vector_desenvolvimento img {
+  width: 100%;
+}
+
+.sobre_desenvolvimento .sobre_desenvolvimento_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sobre_desenvolvimento .sobre_desenvolvimento_container .sobre_desenvolvimento_title {
+  width: 495px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: flex;
+          flex-direction: flex;
+  gap: 84px;
+  z-index: 999999;
+}
+
+.sobre_desenvolvimento .sobre_desenvolvimento_container .sobre_desenvolvimento_title h3 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FAF9F9;
+  margin-top: 300px;
+}
+
+.sobre_desenvolvimento .sobre_desenvolvimento_container .sobre_desenvolvimento_text {
+  width: 595px;
+}
+
+.sobre_desenvolvimento .sobre_desenvolvimento_container .sobre_desenvolvimento_text p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F6F6F6;
+  padding-bottom: 20px;
+}
+
+.sobre_trajetoria {
+  width: 100%;
+  height: 1741px;
+  background: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: -2000;
+  position: relative;
+  margin-top: -350px;
+  -webkit-clip-path: polygon(53% 9%, 100% 17%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
+          clip-path: polygon(53% 9%, 100% 17%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
+}
+
+.sobre_trajetoria .vector_trajetoria {
+  height: 100%;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.sobre_trajetoria .vector_trajetoria img {
+  width: 100%;
+}
+
+.sobre_trajetoria .sobre_trajetoria_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sobre_trajetoria .sobre_trajetoria_container .sobre_trajetoria_title {
+  width: 495px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 999999;
+  margin-top: -700px;
+  gap: 30px;
+}
+
+.sobre_trajetoria .sobre_trajetoria_container .sobre_trajetoria_title h4 {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.sobre_trajetoria .sobre_trajetoria_container .sobre_trajetoria_title h3 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.sobre_trajetoria .sobre_trajetoria_container .sobre_trajetoria_title p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.hero_faq {
+  width: 100%;
+  height: 761px;
+  background: url(../../assets/BG_Faq_desk.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: 0;
+  z-index: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+          clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+}
+
+.hero_faq .hero_faq_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero_faq .hero_faq_container .hero_faq_text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.hero_faq .hero_faq_container .hero_faq_text h2 {
+  width: 760px;
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FAF9F9;
+}
+
+.faq_perguntas {
+  width: 100%;
+  height: 699px;
+  background: #161616;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -170px;
+  z-index: -2000;
+  position: relative;
+}
+
+.faq_perguntas .faq_perguntas_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faq_perguntas .faq_perguntas_container .faq_perguntas_title {
+  width: 100%;
+  z-index: 999999;
+}
+
+.faq_perguntas .faq_perguntas_container .faq_perguntas_title h3 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F6F6F6;
+  padding-bottom: 36px;
+}
+
+.faq_perguntas .faq_perguntas_container .faq_perguntas_title p {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  min-height: calc(100vh - 128px);
+  z-index: 9999999;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq {
+  padding: 3rem;
+  color: white;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq details {
+  max-width: 28rem;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq details > summary {
+  padding: 8px;
+  padding-left: 2.2rem;
+  border: none;
+  cursor: pointer;
+  list-style-position: inside;
+  border-bottom: 2px solid darkblue;
+  position: relative;
+  display: block;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq details[open] > summary {
+  color: skyblue;
+  background-color: darkblue;
+  border-bottom: 2px solid skyblue;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq details > p {
+  padding: 8px;
+  border-bottom: 2px solid skyblue;
+  line-height: 2rem;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq summary:before {
+  content: '';
+  border-width: .4rem;
+  border-style: solid;
+  border-color: transparent transparent transparent darkblue;
+  position: absolute;
+  top: 0.6rem;
+  left: 1rem;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  -webkit-transform-origin: .2rem 50%;
+          transform-origin: .2rem 50%;
+  -webkit-transition: .25s transform ease;
+  transition: .25s transform ease;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq details summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq_perguntas .faq_perguntas_container .centerize .faq details[open] > summary:before {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  border-color: transparent transparent transparent skyblue;
+}
+
 .footer {
   width: 100%;
   height: 402px;

@@ -3,6 +3,7 @@ import '../styles/scss/main.css';
 import Big1 from '../assets/Big_Image1_desk.png';
 import Big2 from '../assets/Big_Image2_desk.png';
 import Big3 from '../assets/Big_Image3_desk.png';
+import BGEstruturas from '../assets/BG_estruturas_desk.png';
 
 export class BigNumbers extends React.Component {
 
@@ -10,6 +11,11 @@ export class BigNumbers extends React.Component {
     return (
       <div>
         <section className="big">
+            <div className="big_layer"></div>
+            <div className="big_bg">
+                <img src={BGEstruturas} alt="BG Estruturas"/>
+            </div>
+
             <div className="big_container1">
                 <div className="big_text">
                     <h4>Estruturas Principais</h4>

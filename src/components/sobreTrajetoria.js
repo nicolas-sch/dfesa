@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
 import VectorTrajetoria from '../assets/Vector_sobre_trajetoria_desk.png';
+import BGSobreBottom from '../assets/BG_Sobre_bottom_desk.png';
 
 
 export class SobreTrajetoria extends React.Component {
@@ -9,6 +10,11 @@ export class SobreTrajetoria extends React.Component {
     return (
       <div>
         <section className="sobre_trajetoria">
+            <div className="sobre_layer"></div>
+            <div className="sobre_bg">
+                <img src={BGSobreBottom} alt="BG Sobre"/>
+            </div>
+
             <div className="vector_trajetoria">
                 <img src={VectorTrajetoria} alt="Vector trajetória" />
             </div>

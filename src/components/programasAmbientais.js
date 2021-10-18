@@ -1,5 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import BGBloco1 from '../assets/BG_Programas_bloco1_desk.png';
+import BGBloco3 from '../assets/BG_Programas_bloco3_desk.png';
 
 export class ProgramasAmbientais extends React.Component {
 
@@ -7,6 +9,14 @@ export class ProgramasAmbientais extends React.Component {
     return (
       <div>
         <section className="programasAmbientais">
+            <div className="programas_layer"></div>
+            <div className="programas_bg1">
+                <img src={BGBloco1} alt="BG Programas1"/>
+            </div>
+            <div className="programas_bg2">
+                <img src={BGBloco3} alt="BG Programas2"/>
+            </div>
+
             <div className="programasAmbientais_container">
                 <div className="programasAmbientais_box">
                     <div className="programasAmbientais_bloco1">

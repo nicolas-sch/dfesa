@@ -8,6 +8,7 @@ import SobreDesenvolvimento from '../components/sobreDesenvolvimento';
 import SobreTrajetoria from '../components/sobreTrajetoria';
 import Footer from '../components/footer';
 
+
 export class Sobre extends React.Component {
     render() {
       return (

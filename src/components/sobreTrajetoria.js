@@ -31,7 +31,6 @@ export class SobreTrajetoria extends React.Component {
                     </p>
                 </div>
             </div>
-            
         </section>
       </div>
     );

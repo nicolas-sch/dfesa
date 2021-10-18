@@ -11,17 +11,20 @@
     // background-size: contain;
     // background-position: right;
     // background-size: contain;
+    @media (max-width: 480px) {height: auto; background: #C4C4C4; padding: 50px 0;}
     .big_layer {
         position: absolute;
         width: 100%;
         height: 1375px;
         background: linear-gradient(90deg, #C4C4C4 58.33%, rgba(196, 196, 196, 0) 100%);
         z-index: 100;
+        @media (max-width: 480px) {display: none;}
     }
     .big_bg {
         height: 1375px;
         position: absolute;
         right: 0;
+        @media (max-width: 480px) {display: none;}
         img {
             height: 100%;
         }
@@ -38,6 +41,7 @@
         position: relative;
         padding-top: 134px;
         z-index: 101;
+        @media (max-width: 480px) {padding: 0;}
         .big_text {
           width: 100%;
           display: flex;
@@ -60,6 +64,7 @@
             justify-content: space-around;
             gap: 10px;
             margin-top: 20px;
+            @media (max-width: 480px) {flex-direction: column; gap: 30px;}
             .card {
                 width: 309px;
                 height: auto;
@@ -120,10 +125,12 @@
             gap: 70px;
             margin-top: 185px;
             padding-bottom: 90px;
+            @media (max-width: 480px) {margin-top: 30px; gap: 30px; padding: 0;}
             .potenci_title {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                @media (max-width: 480px) {width: 90%; margin: 0 auto;}
                 h3 {
                     font-family: 'Roboto';
                     font-size: 36px;
@@ -133,6 +140,7 @@
                     letter-spacing: 0em;
                     text-align: left;
                     color: #161616;
+                    @media (max-width: 480px) {text-align: center; width: 100%;}
                 }
             }
             .potenci_box {
@@ -141,6 +149,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
+                @media (max-width: 480px) {flex-direction: column; height: auto; gap: 30px; width: 90%; margin: 0 auto;}
                 .potenci_numbers {
                     display: flex;
                     flex-direction: column;
@@ -154,6 +163,7 @@
                         letter-spacing: 0em;
                         text-align: center;
                         color: #161616;
+                        @media (max-width: 480px) {font-size: 40px; line-height: 40px;}
                         span {
                             font-family: 'Roboto';
                             font-size: 24px;
@@ -175,6 +185,7 @@
                         letter-spacing: 0em;
                         text-align: center;
                         color: #161616;
+                        @media (max-width: 480px) {text-align: center; width: 100%;}
                     }
                 }
             }
@@ -182,6 +193,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                @media (max-width: 480px) {text-align: center; width: 90%; margin: 0 auto;}
                 p {
                     font-family: 'Roboto';
                     font-size: 18px;
@@ -191,6 +203,7 @@
                     letter-spacing: 0em;
                     text-align: left;
                     color: #161616;
+                    @media (max-width: 480px) {text-align: center; width: 100%;}
                 }
             }
         }

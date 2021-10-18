@@ -7,7 +7,7 @@ export class FaqCanal extends React.Component {
   render() {
     return (
       <div>
-        <section className="faq_canal">
+        <section className="faq_canal" id="codigo">
             <div className="faq_bg">
                 <img src={BGFaq} alt="BG Faq" />
             </div>

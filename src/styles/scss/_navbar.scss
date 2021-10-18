@@ -15,6 +15,13 @@
         justify-content: space-between;
         top: 25px;
         position: absolute;
+		@media (max-width: 480px) {width: 90%; margin: 0 auto;}
+		.navbar_image {
+			@media (max-width: 480px) {width: 200px;}
+			img {
+				width: 100%;
+			}
+		}
 		}
 		.navbar_links {
 			display: flex;
@@ -30,6 +37,7 @@
 				letter-spacing: 0em;
 				text-align: left;
 				color: #FFFFFF;
+				@media (max-width: 480px) {font-size: 24px;}
 			}
 			.hamburguer {
 				display: inline-block;
@@ -95,17 +103,20 @@
 						display: flex;
 						position: absolute;
 						left: -100px;
-						
+						@media (max-width: 480px) {width: 100%; display: flex; flex-direction: column; gap: 10px; display:flex;margin: 0 auto; left: 0;}
 						.menu_links_box {
 							padding-top: 75px;
 							padding-left: 96px;
 							display: flex;
 							flex-direction: column;
 							gap: 42px;
+							@media (max-width: 480px) {width: 90%;gap: 10px; display: flex; align-items: center; justify-content: center; padding: 0; margin: 0 auto;}
+
 							.menu_logo {
 								width: 404px;
 								top: -140px;
 								position: absolute;
+								@media (max-width: 480px) {width: 80%;}
 								img {
 									width: 100%;
 								}
@@ -122,6 +133,7 @@
 								color: #EB364E;
 								text-decoration: none;
 								cursor: pointer;
+								@media (max-width: 480px) {text-align: center; width: 100%;}
 							}
 						}
 						.menu_separator {
@@ -131,12 +143,14 @@
 							width: 1px;
 							height: 190px;
 							background: #EB364E;
+							@media (max-width: 480px) {display: none;}
 						}
 						.menu_links_box2 {
 							padding-top: 176px;
 							display: flex;
 							flex-direction: column;
 							gap: 42px;
+							@media (max-width: 480px) {width: 90%;gap: 10px; display: flex; align-items: center; justify-content: center; padding: 0; margin: 0 auto;}
 							a {
 								width: 296px;
 								font-family: 'Roboto';
@@ -149,6 +163,7 @@
 								color: #EB364E;
 								text-decoration: none;
 								cursor: pointer;
+								@media (max-width: 480px) {text-align: center; width: 100%;}
 							}
 						}
 					}
@@ -157,6 +172,7 @@
 						right: 0;
 						bottom: -120px;
 						text-align: right;
+						@media (max-width: 480px) {width: 90%;gap: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0; text-align: center; right: 50%; left: 50%; transform: translate(-50%, -50%);}
 						p {
 							font-family: 'Roboto';
 							font-size: 14px;
@@ -166,6 +182,7 @@
 							letter-spacing: 0em;
 							text-align: right;
 							color: #EB364E;
+							@media (max-width: 480px) {text-align: center; width: 100%;}
 						}
 						.menu_icons {
 							display: flex;

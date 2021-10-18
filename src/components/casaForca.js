@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import BGCasa from '../assets/BG_casa_desk.png';
 
 export class Casa extends React.Component {
 
@@ -7,6 +8,11 @@ export class Casa extends React.Component {
     return (
       <div>
         <section className="casa">
+            <div className="casa_layer"></div>
+            <div className="casa_bg">
+                <img src={BGCasa} alt="BG Barragem"/>
+            </div>
+
             <div className="casa_container">
                 <div className="casa_title">
                     <h3>Casa de força</h3>

@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import BGBarragem from '../assets/BG_Barragem_desk.png';
 
 export class Barragem extends React.Component {
 
@@ -7,6 +8,10 @@ export class Barragem extends React.Component {
     return (
       <div>
         <section className="barragem">
+            <div className="barragem_layer"></div>
+            <div className="barragem_bg">
+                <img src={BGBarragem} alt="BG Barragem"/>
+            </div>
             <div className="barragem_container">
                 <div className="barragem_title">
                     <h3>A Barragem</h3>

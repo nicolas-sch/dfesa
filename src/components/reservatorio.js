@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import BGReservatorio from '../assets/BG_Reservatorio_desk.png';
 
 export class Reservatorio extends React.Component {
 
@@ -7,6 +8,11 @@ export class Reservatorio extends React.Component {
     return (
       <div>
         <section className="reservatorio">
+            <div className="reservatorio_layer"></div>
+            <div className="reservatorio_bg">
+                <img src={BGReservatorio} alt="BG Reservatorio"/>
+            </div>
+
             <div className="reservatorio_container">
                 <div className="reservatorio_title">
                     <h3>Reservatório</h3>

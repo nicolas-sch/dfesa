@@ -13,9 +13,6 @@ export class FaqPerguntas extends React.Component {
                         Perguntas frequentes
                     </h3>
                 </div>
-                
-                
-                
             </div>
         </section>
       </div>

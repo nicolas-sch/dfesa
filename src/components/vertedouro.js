@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import BGVertedouro from '../assets/BG_Vertedouro_desk.png';
 
 export class Vertedouro extends React.Component {
 
@@ -7,6 +8,10 @@ export class Vertedouro extends React.Component {
     return (
       <div>
         <section className="vertedouro">
+            <div className="vertedouro_layer"></div>
+            <div className="vertedouro_bg">
+                <img src={BGVertedouro} alt="BG Vertedouro"/>
+            </div>
             <div className="vertedouro_container">
                 <div className="vertedouro_title">
                     <h3>Vertedouro</h3>

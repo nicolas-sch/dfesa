@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import BGSubestacao from '../assets/BG_subestacao_desk.png';
 
 export class Subestacao extends React.Component {
 
@@ -7,6 +8,11 @@ export class Subestacao extends React.Component {
     return (
       <div>
         <section className="subestacao">
+          <div className="subestacao_layer"></div>
+            <div className="subestacao_bg">
+                <img src={BGSubestacao} alt="BG Subestacao"/>
+            </div>
+
             <div className="subestacao_container">
                 <div className="subestacao_title">
                     <h3>Subestação</h3>

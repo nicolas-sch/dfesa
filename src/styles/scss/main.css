@@ -561,6 +561,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 30px;
+  margin-top: -300px;
 }
 
 .hero .hero_container .hero_text h1 {
@@ -779,6 +780,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  position: relative;
 }
 
 @media (max-width: 480px) {

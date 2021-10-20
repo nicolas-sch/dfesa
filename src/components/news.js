@@ -4,6 +4,8 @@ import News1 from '../assets/News1_desk.png';
 import News2 from '../assets/News2_desk.png';
 import News3 from '../assets/News3_desk.png';
 import News4 from '../assets/News4_desk.png';
+import Slide from 'react-reveal/Slide';
+import Zoom from 'react-reveal/Zoom';
 
 export class News extends React.Component {
 
@@ -13,12 +15,16 @@ export class News extends React.Component {
         <section className="news">
             <div className="news_container">
                 <div className="news_text">
+                <Slide left>
                     <h4>Notícias</h4>
+                </Slide>
                 </div>
                 <div className="news_cards">
                     <div className="card">
                         <div className="news_card_image">
+                            <Zoom>
                             <img src={News1} alt="Notícia 1" />
+                            </Zoom>
                         </div>
                         <div className="news_card_text">
                             <h5>Notícia 1</h5>
@@ -30,7 +36,9 @@ export class News extends React.Component {
                     </div>
                     <div className="card">
                         <div className="news_card_image">
+                            <Zoom>
                             <img src={News2} alt="Notícia 2" />
+                            </Zoom>
                         </div>
                         <div className="news_card_text">
                             <h5>Notícia 2</h5>
@@ -42,7 +50,9 @@ export class News extends React.Component {
                     </div>
                     <div className="card">
                         <div className="news_card_image">
+                            <Zoom>
                             <img src={News3} alt="Notícia 3" />
+                            </Zoom>
                         </div>
                         <div className="news_card_text">
                             <h5>Notícia 3</h5>
@@ -54,7 +64,9 @@ export class News extends React.Component {
                     </div>
                     <div className="card">
                         <div className="news_card_image">
+                            <Zoom>
                             <img src={News4} alt="Notícia 4" />
+                            </Zoom>
                         </div>
                         <div className="news_card_text">
                             <h5>Notícia 4</h5>

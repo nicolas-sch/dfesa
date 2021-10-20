@@ -4,6 +4,7 @@ import Big1 from '../assets/Big_Image1_desk.png';
 import Big2 from '../assets/Big_Image2_desk.png';
 import Big3 from '../assets/Big_Image3_desk.png';
 import BGEstruturas from '../assets/BG_estruturas_desk.png';
+import Zoom from 'react-reveal/Zoom';
 
 export class BigNumbers extends React.Component {
 
@@ -23,7 +24,9 @@ export class BigNumbers extends React.Component {
                 <div className="big_cards">
                     <div className="card">
                         <div className="big_card_image">
+                            <Zoom>
                             <img src={Big1} alt="Big Numbers 1" />
+                            </Zoom>
                         </div>
                         <div className="big_card_text">
                             <h5>Casa de força</h5>
@@ -32,7 +35,9 @@ export class BigNumbers extends React.Component {
                     </div>
                     <div className="card">
                         <div className="big_card_image">
+                            <Zoom>
                             <img src={Big2} alt="Big Numbers 2" />
+                            </Zoom>
                         </div>
                         <div className="big_card_text">
                             <h5>Barragem</h5>
@@ -41,7 +46,9 @@ export class BigNumbers extends React.Component {
                     </div>
                     <div className="card">
                         <div className="big_card_image">
+                            <Zoom>
                             <img src={Big3} alt="Big Numbers 3" />
+                            </Zoom>
                         </div>
                         <div className="big_card_text">
                             <h5>Subestação</h5>

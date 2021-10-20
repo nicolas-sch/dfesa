@@ -11,6 +11,7 @@
     z-index: 0;
     align-items: center;
     justify-content: center;
+    @media (max-width: 480px) {height: auto; padding: 200px 0px; clip-path: none; margin-top: 0;}
     .hero_politicas_container {
         width: 100%;
         display: flex;
@@ -34,6 +35,7 @@
                 letter-spacing: 0em;
                 text-align: center;
                 color: #FAF9F9;
+                @media (max-width: 480px) {width: 90%;}
             }
         }
     }

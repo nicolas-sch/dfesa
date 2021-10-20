@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
+import VectorDesenvolvimento from '../assets/Vector_desenvolvimento_desk.png';
 
 export class SobreDesenvolvimento extends React.Component {
 
@@ -8,7 +9,7 @@ export class SobreDesenvolvimento extends React.Component {
       <div>
         <section className="sobre_desenvolvimento">
             <div className="vector_desenvolvimento">
-                {/* <img src={EstruturaImage} alt="Estrutura Image" /> */}
+                <img src={VectorDesenvolvimento} alt="Vector desenvolvimento" />
             </div>
             <div className="sobre_desenvolvimento_container">
                 <div className="sobre_desenvolvimento_title">

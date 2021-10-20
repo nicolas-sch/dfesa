@@ -9,11 +9,13 @@
     padding-top: 132px;
     padding-bottom: 182px;
     position: relative;
+    @media (max-width: 480px) {height: auto; padding: 50px 0px;}
     .utilidades_layer {
         position: absolute;
         width: 100%;
         height: auto;
         top: 758px;
+        @media (max-width: 480px) {display: none;}
     }
     .utilidades_container {
         width: 100%;
@@ -58,14 +60,17 @@
             justify-content: center;
             gap: 87px;
             margin-bottom: 270px;
+            @media (max-width: 480px) {flex-direction: column; margin-bottom: 50px;}
             .utilidades_image {
                 width: 506px;
+                @media (max-width: 480px) {width: 90%;}
                 img {
                     width: 100%;
                 }
             }
             .utilidades_text {
                 width: 605px;
+                @media (max-width: 480px) {width: 90%;}
                 p {
                     font-family: 'Roboto';
                     font-size: 18px;
@@ -85,6 +90,7 @@
             justify-content: center;
             width: 866px;
             margin-top: -68px;
+            @media (max-width: 480px) {width: 90%;}
             p {
                 font-family: 'Roboto';
                 font-size: 18px;

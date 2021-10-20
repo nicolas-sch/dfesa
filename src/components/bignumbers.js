@@ -61,7 +61,7 @@ export class BigNumbers extends React.Component {
                         </div>
                         <div className="potenci_numbers">
                             <h5>38,15<span>m</span></h5>
-                            <p>Queda líquida</p>
+                            <p>Queda líquida<br></br><br></br></p>
                         </div>
                         <div className="potenci_numbers">
                             <h5>664.884<span>MWh</span></h5>
@@ -69,7 +69,7 @@ export class BigNumbers extends React.Component {
                         </div>
                         <div className="potenci_numbers">
                             <h5>2</h5>
-                            <p>Unidades geradoras</p>
+                            <p>Unidades geradoras<br></br><br></br></p>
                         </div>
                     </div>
                     <div className="potenci_footer">

@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
 import AboutParqueImage from '../assets/About_parque_image_desk.png';
+import VectorParque from '../assets/Vector_desenvolvimento_black_desk.png';
 
 export class AboutParque extends React.Component {
 
@@ -26,6 +27,9 @@ export class AboutParque extends React.Component {
                     ameaçados de extinção.
                     </p>
                 </div>
+            </div>
+            <div className="about_parque_vector">
+              <img src={VectorParque} alt="Vector parque" />
             </div>
         </section>
         

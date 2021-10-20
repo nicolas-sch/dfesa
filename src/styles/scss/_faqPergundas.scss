@@ -7,16 +7,17 @@
     align-items: center;
     justify-content: center;
     margin-top: -170px;
-    z-index: -2000;
     position: relative;
     .faq_perguntas_container {
         width: 100%;
         display: flex;
+        flex-direction: column;
         max-width: 1216px;
         align-items: center;
         margin: 0 auto;
         position: relative;
         justify-content: center;
+        z-index: 99999999;
         .faq_perguntas_title {
           width: 100%;
           z-index: 999999;
@@ -41,66 +42,6 @@
                 text-align: center;
                 color: #161616;
           }
-        }
-        .centerize{
-            display:grid;
-            justify-items:center;
-            min-height:calc(100vh - 128px);
-            z-index: 9999999;
-            .faq{
-                padding:3rem;
-                color:white;
-                h1{
-                    font-size:2.5rem;
-                    font-weight:bold;
-                    margin-bottom:2rem;
-                  }
-                  details{
-                    max-width:28rem;
-                  }
-                  details > summary{  
-                    padding: 8px;
-                    padding-left: 2.2rem;
-                    border: none;
-                    cursor: pointer;
-                    list-style-position: inside;
-                    border-bottom:2px solid darkblue;
-                    position: relative;
-                    display:block;
-                    transition:all 1s;
-                  }
-                  details[open] > summary {
-                    color:skyblue;
-                    background-color: darkblue;
-                    border-bottom:2px solid skyblue;
-                  }
-                  details > p{
-                    padding:8px;
-                    border-bottom:2px solid skyblue;
-                    line-height:2rem;
-                    
-                  }
-                  summary:before {
-                    content: '';
-                    border-width: .4rem;
-                    border-style: solid;
-                    border-color: transparent transparent transparent darkblue;
-                    position: absolute;
-                    top: 0.6rem;
-                    left: 1rem;
-                    transform: rotate(0);
-                    transform-origin: .2rem 50%;
-                    transition: .25s transform ease;
-                  }
-                  details summary::-webkit-details-marker {
-                    display:none;
-                  }
-                  details[open] > summary:before {
-                    transform: rotate(90deg);
-                    border-color: transparent transparent transparent skyblue;
-                  }
-                  
-            }
         }
     }
 }

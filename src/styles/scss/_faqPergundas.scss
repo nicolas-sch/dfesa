@@ -18,7 +18,7 @@
         margin: 0 auto;
         position: relative;
         justify-content: center;
-        z-index: 99999999;
+        z-index: 0;
         @media (max-width: 480px) {width: 90%;}
         .faq_perguntas_title {
           width: 100%;

@@ -9,6 +9,7 @@
     z-index: -2000;
     position: relative;
     padding-bottom: 100px;
+    @media (max-width: 480px) {height: auto; padding: 50px 0px; clip-path: none; margin-top: 0;}
     .vector_desenvolvimento {
         width: 60%;
         height: 100%;
@@ -16,6 +17,7 @@
         left: 0;
         bottom: 0px;
         z-index: 9999999;
+        @media (max-width: 480px) {display: none;}
         img {
             width: 100%;
             height: 100%;
@@ -29,12 +31,14 @@
         margin: 0 auto;
         position: relative;
         justify-content: space-between;
+        @media (max-width: 480px) {width: 90%; flex-direction: column;}
         .sobre_desenvolvimento_title {
           width: 495px;
           display: flex;
           flex-direction: flex;
           gap: 84px;
           z-index: 999999;
+          @media (max-width: 480px) {width: 100%;}
           h3 {
             font-family: 'Roboto';
             font-size: 56px;
@@ -45,10 +49,12 @@
             text-align: left;
             color: #FAF9F9;
             margin-top: 300px;
+            @media (max-width: 480px) {font-size: 50px; margin-top: 0;}
           }
         }
         .sobre_desenvolvimento_text {
             width: 595px;
+            @media (max-width: 480px) {width: 100%;}
             p {
                 font-family: 'Roboto';
                 font-size: 18px;

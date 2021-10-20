@@ -13,6 +13,7 @@
     justify-content: center;
     padding-top: 50px;
     clip-path: polygon(0% 0%,100% 0%,100% 80%,50% 100%,0% 80%);
+    @media (max-width: 480px) {height: auto; padding: 200px 0px; clip-path: none;}
     .hero_sobre_container {
         width: 100%;
         display: flex;
@@ -26,6 +27,7 @@
             align-items: center;
             justify-content: center;
             gap: 30px;
+            @media (max-width: 480px) {width: 90%;}
             h2 {
                 width: 760px;
                 font-family: 'Roboto';
@@ -36,6 +38,7 @@
                 letter-spacing: 0em;
                 text-align: center;
                 color: #FAF9F9;
+                @media (max-width: 480px) {width: 100%;}
             }
             p {
                 width: 609px;
@@ -47,6 +50,7 @@
                 letter-spacing: 0em;
                 text-align: center;
                 color: #FAF9F9;
+                @media (max-width: 480px) {width: 100%;}
             }
         }
     }

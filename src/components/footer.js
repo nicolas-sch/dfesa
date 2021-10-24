@@ -20,7 +20,7 @@ export class Footer extends React.Component {
                     </div>
                     <div className="footer_separator"></div>
                     <div className="footer_links_box2">
-                        <a href="">Código de Ética e Conduta</a>
+                        <a href="">Ética e Compliance</a>
                         <a href="/politicas">Políticas e Privacidade</a>
                     </div>
                 </div>

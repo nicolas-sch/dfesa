@@ -13,7 +13,7 @@ export class Duvidas extends React.Component {
                 <div className="duvidas_text">
                     <h3>Tire dúvidas e receba o suporte da nossa equipe</h3>
                     <div className="duvidas_link">
-                        <a>Fale conosco</a>
+                        <a href="/faq">Fale conosco</a>
                     </div>
                 </div>
             </div>

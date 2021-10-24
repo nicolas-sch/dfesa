@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import { render } from 'react-dom';
 import '../styles/scss/main.css';
 import Logo from '../assets/Logo.png';
@@ -6,6 +6,7 @@ import LogoMenu from '../assets/Logo_menu_desk.png';
 
 
 class Navbar extends React.Component {
+  
   constructor(props) {
     super(props);
     this.state= {
@@ -18,9 +19,12 @@ class Navbar extends React.Component {
       abreMenu: !this.state.abreMenu
     })
   }
+  
+  
+  
   render() {
     return (
-        <div className="navbar">
+        <div className="navbar active">
             <div className="navbar_container">
                 <div className="navbar_image">
                     <a href="/"><img src={Logo} alt="Logo" /></a>
@@ -48,7 +52,7 @@ class Navbar extends React.Component {
                                 </div>
                                 <div className="menu_separator"></div>
                                 <div className="menu_links_box2">
-                                    <a href="#codigo">Código de Ética e Conduta</a>
+                                    <a href="#codigo">Ética e Compliance</a>
                                     <a href="/politicas">Políticas e Privacidade</a>
                                 </div>
                             </div>

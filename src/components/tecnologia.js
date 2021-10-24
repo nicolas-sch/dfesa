@@ -16,9 +16,10 @@ export class Tecnologia extends React.Component {
                 <div className="tecnologia_text">
                     <h3>Tecnologia e Segurança</h3>
                     <p>
-                      A DFESA é equipada com um moderno sistema de comando e controle digital que 
-                      permite automatizar muitos processos, proporcionando segurança às pessoas e 
-                      equipamentos tornando a operação da usina mais segura.
+                      A DFESA é equipada com um moderno sistema de comando e de controle digital 
+                      que permite automatizar muitos processos, proporcionando segurança ao 
+                      prosseguimento da operação. Assim, atividades que antes eram perigosas não 
+                      necessitam mais da presença humana, eliminando o risco de acidentes.
                     </p>
                 </div>
                 

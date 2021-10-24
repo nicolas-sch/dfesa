@@ -19,14 +19,14 @@ export class AboutSustentabilidade extends React.Component {
                     Desde a fase anterior ao início da construção da UHE, demonstramos nossa 
                     atenção para a causa ambiental. Nesse período, implementamos 28 programas 
                     ambientais para investigar os meios físico, biótico e social e, assim, 
-                    minimizar os impactos negativos à natureza.
+                    minimizar os impactos à natureza.
                   </p>
                   <p>
                     Hoje, continuamos a prestar atenção a essas questões, a partir da realização 
                     de monitoramentos periódicos da qualidade da água. Também catalogamos as espécies 
                     de peixes presentes nas águas da região e promovemos educação ambiental para a 
                     população circunvizinha. Nosso Sistema de Gestão Ambiental interno é o que dá base 
-                    para as auditorias que são realizadas na usina de maneira frequente, atuando desde a 
+                    para as auditorias realizadas na usina de maneira frequente, atuando desde a 
                     coleta seletiva do lixo à destinação dos óleos utilizados nos transformadores.
                   </p>
                 </div>

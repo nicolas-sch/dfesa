@@ -7,6 +7,7 @@
     background: transparent;
 	z-index: 99999;
     position: fixed;
+	
 	.navbar_container {
 		width: 100%;
         display: flex;
@@ -248,3 +249,8 @@
 			}
 		}
 }
+
+.active {
+	background: white;
+}
+

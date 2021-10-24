@@ -30,7 +30,6 @@ export class BigNumbers extends React.Component {
                         </div>
                         <div className="big_card_text">
                             <h5>Casa de força</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                     </div>
                     <div className="card">
@@ -41,7 +40,7 @@ export class BigNumbers extends React.Component {
                         </div>
                         <div className="big_card_text">
                             <h5>Barragem</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
+                            <p>Tomada d'Água e o Vertedouro</p>
                         </div>
                     </div>
                     <div className="card">
@@ -52,7 +51,6 @@ export class BigNumbers extends React.Component {
                         </div>
                         <div className="big_card_text">
                             <h5>Subestação</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                     </div>
                 </div>

@@ -21,9 +21,9 @@ export class Home extends React.Component {
       return (
         <>
         <Navbar />
-        <Parallax speed={-15}>
+        {/* <Parallax speed={-15}> */}
           <Hero />
-        </Parallax>
+        {/* </Parallax> */}
         <About />
         <News />
         <BigNumbers />

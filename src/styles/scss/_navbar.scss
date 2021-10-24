@@ -81,40 +81,33 @@
 				align-items: center;
 				justify-content: center;
 				position: fixed;
-				background: #FFFFFF;
+				background: #EB364E;
 				top: 0;
 				left: -100%;
 				z-index: 2;
 				transition: all .2s ease-out;
 				&--open {
-					left: 20px;
+					left: 0px;
 				}
 				.menu_container {
 					width: 100%;
+					height: 100%;
 					display: flex;
-					max-width: 1216px;
+					max-width: 98%;
 					align-items: center;
 					justify-content: center;
 					margin: 0 auto;
-					position: relative;
+					right: 0;
+					position: absolute;
 					gap: 132px;
 					z-index: 99;
-					.menu--layer {
-						width: 100%;
-						height: 100%;
-						background: #EB364E;
-						position: absolute;
-						top: 0;
-						left: -730px;
-						z-index: 0;
-						transform: rotate(90deg);
-					}
+					background: #FFFFFF;
 					.menu_links {
 						width: 1129px;
 						height: 402px;
 						display: flex;
 						position: absolute;
-						left: -100px;
+						left: -10px;
 						@media (max-width: 480px) {width: 100%; display: flex; flex-direction: column; gap: 10px; display:flex;margin: 0 auto; left: 0;}
 						@media (max-width: 820px) {width: 100%; left: 0;}
 						.menu_links_box {
@@ -136,6 +129,7 @@
 							}
 							a {
 								width: 185px;
+								height: auto;
 								font-family: 'Roboto';
 								font-size: 18px;
 								font-style: normal;
@@ -183,8 +177,8 @@
 					}
 					.menu_socials {
 						position: absolute;
-						right: 0;
-						bottom: -120px;
+						right: 300px;
+						top: 500px;
 						text-align: right;
 						@media (max-width: 480px) {width: 90%;gap: 10px; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0; text-align: center; right: 50%; left: 50%; transform: translate(-50%, -50%);}
 						@media (max-width: 820px) {width: 90%; right: auto; bottom: -220px;}

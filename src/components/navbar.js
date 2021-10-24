@@ -37,7 +37,6 @@ class Navbar extends React.Component {
                     </button>
                     <div className={ this.state.abreMenu ? "menu menu--open" : "menu " }>
                     <div className="menu_container">
-                        <div className="menu--layer"></div>
                         <div className="menu_links">
                                 <div className="menu_links_box">
                                 <div className="menu_logo">

@@ -15,7 +15,7 @@ export class Hero extends React.Component {
                         Nossa trajetória, iniciada em 2001 com a inauguração da Usina, mescla a força de pessoas, de máquinas e da 
                         natureza para fornecer energia com inovação e sustentabilidade.
                     </p>
-                    <a href="/">Leia mais</a>
+                    <a href="/sustentabilidadeedesenvolvimento">Leia mais</a>
                 </div>
             </div>
         </section>

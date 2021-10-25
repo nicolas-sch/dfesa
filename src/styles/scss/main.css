@@ -5599,38 +5599,33 @@ input {
 }
 
 .faq_documentos .faq_documentos_container {
-  width: 100%;
+  width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 1216px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
   margin: 0 auto;
   padding: 55px 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
 }
 
-.faq_documentos .faq_documentos_container .faq_documentos_title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  width: 100%;
+@media (max-width: 480px) {
+  .faq_documentos .faq_documentos_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+  }
 }
 
-.faq_documentos .faq_documentos_container .faq_documentos_title h3 {
+.faq_documentos .faq_documentos_container h3 {
   width: 238px;
+  height: 86px;
   font-family: 'Roboto';
   font-size: 36px;
   font-style: normal;
@@ -5639,6 +5634,131 @@ input {
   letter-spacing: 0em;
   text-align: left;
   color: #444444;
+  margin-right: 30px;
+  margin-bottom: 340px;
+}
+
+@media (max-width: 480px) {
+  .faq_documentos .faq_documentos_container h3 {
+    margin-bottom: 30px;
+    margin-top: 0;
+  }
+}
+
+.container {
+  width: 802px;
+  height: 400px;
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.container .carousel {
+  width: 802px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+
+.container .carousel .item {
+  width: 301px;
+  height: 376px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+}
+
+.container .carousel .item .image {
+  width: 100%;
+  height: 303px;
+}
+
+.container .carousel .item .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.container .carousel .item .info {
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 2px solid #EB364E;
+}
+
+.container .carousel .item .info .name {
+  width: 147px;
+  height: auto;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #444444;
+}
+
+.container .carousel .item .info a {
+  background-color: #EB364E;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #F6F6F6;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1px 14px;
+  margin-right: 15px;
+}
+
+.container ::-webkit-scrollbar {
+  display: none;
+}
+
+.container .buttons {
+  margin-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .container .buttons {
+    display: none;
+  }
+}
+
+.container .buttons button {
+  background: transparent;
+}
+
+.container .buttons button .fa-chevron-left {
+  color: #EB364E;
+  font-size: 50px;
+}
+
+.container .buttons button .fa-chevron-right {
+  color: #EB364E;
+  font-size: 50px;
 }
 
 .hero_politicas {

@@ -10,21 +10,18 @@
         position: absolute;
     }
     .faq_documentos_container {
-        width: 100%;
+        width: auto;
         display: flex;
-        flex-direction: column;
-        max-width: 1216px;
         align-items: center;
-        position: relative;
         margin: 0 auto;
         padding: 55px 0;
-        .faq_documentos_title {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          width: 100%;
+        overflow: hidden;
+        position: absolute;
+        right: 0;
+        @media (max-width: 480px) {flex-direction: column; position: relative;}
           h3 {
             width: 238px;
+            height: 86px;
             font-family: 'Roboto';
             font-size: 36px;
             font-style: normal;
@@ -33,7 +30,9 @@
             letter-spacing: 0em;
             text-align: left;
             color: #444444;
+            margin-right: 30px;
+            margin-bottom: 340px;
+            @media (max-width: 480px) {margin-bottom: 30px; margin-top: 0;}
           }
-        }
     }
 }

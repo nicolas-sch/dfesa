@@ -1,0 +1,84 @@
+.container {
+    width: 802px;
+    height: 400px;
+    // top: 44px;
+    // right: 0;
+    @media (max-width: 480px) {width: 100%;}
+    .carousel {
+        width: 802px;
+        height: 400px;
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        gap: 20px;
+        .item {
+            width: 301px;
+            height: 376px;
+            flex: none;
+            .image {
+                width: 100%;
+                height: 303px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .info {
+                height: 73px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border: 2px solid #EB364E;
+                .name {
+                    width: 147px;
+                    height: auto;
+                    padding-left: 15px;
+                    font-family: 'Roboto';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #444444;
+                }
+                a {
+                    background-color: #EB364E;
+                    
+                    font-family: 'Roboto';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #F6F6F6;
+                    cursor: pointer;
+                    text-decoration: none;
+                    padding: 1px 14px;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }::-webkit-scrollbar {
+        display: none;
+    }
+    .buttons {
+        margin-left: 0px;
+        display: flex;
+        gap: 20px;
+        @media (max-width: 480px) {display: none;}
+        button {
+            background: transparent;
+            .fa-chevron-left {
+                color: #EB364E;
+                font-size: 50px;
+            }
+            .fa-chevron-right {
+                color: #EB364E;
+                font-size: 50px;
+            }
+        }
+        
+    }
+}

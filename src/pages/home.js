@@ -14,16 +14,13 @@ import Areas from '../components/areas';
 import Tecnologia from '../components/tecnologia';
 import Duvidas from '../components/duvidas';
 import Footer from '../components/footer';
-import Parallax from 'react-rellax';
 
 export class Home extends React.Component {
     render() {
       return (
         <>
         <Navbar />
-        {/* <Parallax speed={-15}> */}
-          <Hero />
-        {/* </Parallax> */}
+        <Hero />
         <About />
         <News />
         <BigNumbers />

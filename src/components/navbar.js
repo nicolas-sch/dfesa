@@ -3,7 +3,7 @@ import { render } from 'react-dom';
 import '../styles/scss/main.css';
 import Logo from '../assets/Logo.png';
 import LogoMenu from '../assets/Logo_menu_desk.png';
-
+import LogoMenu2 from '../assets/Logo_menu_desk2.png';
 
 class Navbar extends React.Component {
   
@@ -20,14 +20,28 @@ class Navbar extends React.Component {
     })
   }
   
-  
+  state = {
+    isTop: true,
+  };
+
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      const isTop = window.scrollY >= 80;
+      if (isTop !== this.state.isTop) {
+          this.setState({ isTop })
+      }
+    });
+  }
   
   render() {
     return (
-        <div className="navbar active">
+        <div className={this.state.isTop ? 'navbar active' : 'navbar'}>
             <div className="navbar_container">
                 <div className="navbar_image">
                     <a href="/"><img src={Logo} alt="Logo" /></a>
+                </div>
+                <div className="navbar_image_active">
+                    <a href="/"><img src={LogoMenu2} alt="Logo" /></a>
                 </div>
                 <div className="navbar_links">
                     <p>menu</p>

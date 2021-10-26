@@ -23,7 +23,7 @@ export class FaqCanal extends React.Component {
                     </p>
                 </div>
                 <div className="faq_canal_button">
-                    <a href="">clique aqui</a>
+                    <a href="https://www2.gerdau.com.br/compliance" target="_blank">clique aqui</a>
                 </div>
                 
                 <div className="faq_canal_title">

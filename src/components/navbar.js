@@ -77,9 +77,6 @@ class Navbar extends React.Component {
                                     <span>Linkedin</span>
                                 </div>
                             </div>
-                            <div className="menu_rights">
-                            <p>© 2021 - DFESA. Todos os direitos reservados.</p> 
-                            </div>
                         </div>
                     </div>
                 </div>

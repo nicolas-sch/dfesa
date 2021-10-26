@@ -90,6 +90,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    
                     a {
                         font-family: 'Roboto';
                         font-size: 14px;
@@ -99,6 +100,14 @@
                         letter-spacing: 0em;
                         color: #F6F6F6;
                         cursor: pointer;
+                    }
+                }
+                .news_card_link:hover{
+                    background: #F6F6F6;
+                    color: #EB364E;
+                    border: 1px solid #EB364E;
+                    a {
+                        color: #EB364E;
                     }
                 }
             }

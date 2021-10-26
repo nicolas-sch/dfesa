@@ -67,7 +67,15 @@
                 cursor: pointer;
                 text-decoration: none;
             }
-        }
+          }
+          .duvidas_link:hover {
+              background: transparent;
+              border: 1px solid #EB364E;
+              a {
+                  color: #EB364E;
+              }
+          }
+          
         }
     }
 }

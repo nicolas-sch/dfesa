@@ -219,25 +219,6 @@
 						}
 				
 					}
-					.menu_rights {
-						height: 24px;
-						display: flex;
-						
-						p {
-							width: 300px;
-							font-family: 'Roboto';
-							font-size: 12px;
-							font-style: normal;
-							font-weight: 400;
-							line-height: 24px;
-							letter-spacing: 0em;
-							text-align: left;
-							color: #EB364E;
-							margin-top: 170px;
-							margin-right: 910px;
-							@media (max-width: 820px) {margin-right: 0; margin-top: 270px;}
-						}
-					}
 				}
 				hr {
 					width: 100%;

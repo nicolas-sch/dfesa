@@ -67,6 +67,9 @@
                 text-decoration: none;
                 cursor: pointer;
                 @media (max-width: 480px) {width: 80%; text-align: center; margin: 0 auto;}
+            }   a:hover {
+                background: #EB364E;
+                color: #FFFFFF;
             }
         }
     }

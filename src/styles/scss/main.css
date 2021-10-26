@@ -6751,6 +6751,7 @@ input {
   .footer {
     height: auto;
     padding-bottom: 20px;
+    background: #FAF9F9;
   }
 }
 
@@ -6802,7 +6803,7 @@ input {
 
 @media (max-width: 480px) {
   .footer .footer_container .footer_links {
-    width: 98%;
+    width: 100%;
     height: auto;
     -webkit-clip-path: none;
             clip-path: none;
@@ -6887,6 +6888,7 @@ input {
     width: 90%;
     text-align: center;
     margin: 0 auto;
+    color: #EB364E;
   }
 }
 
@@ -6945,6 +6947,7 @@ input {
     width: 90%;
     text-align: center;
     margin: 0 auto;
+    color: #EB364E;
   }
 }
 
@@ -6988,6 +6991,7 @@ input {
   .footer .footer_container .footer_socials p {
     width: 100%;
     text-align: center;
+    color: #EB364E;
   }
 }
 
@@ -7018,6 +7022,12 @@ input {
   cursor: pointer;
 }
 
+@media (max-width: 480px) {
+  .footer .footer_container .footer_socials .social_icons .fa-linkedin-in {
+    color: #EB364E;
+  }
+}
+
 .footer .footer_container .footer_socials .social_icons span {
   font-family: 'Roboto';
   font-size: 18px;
@@ -7027,6 +7037,12 @@ input {
   letter-spacing: 0em;
   text-align: right;
   color: #FAF9F9;
+}
+
+@media (max-width: 480px) {
+  .footer .footer_container .footer_socials .social_icons span {
+    color: #EB364E;
+  }
 }
 
 .footer .footer_container .footer_rights {
@@ -7069,6 +7085,7 @@ input {
     width: 100%;
     text-align: center;
     margin: 0;
+    color: #EB364E;
   }
 }
 
@@ -7083,7 +7100,7 @@ input {
 
 @media (max-width: 480px) {
   .footer hr {
-    bottom: 50px;
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -66,7 +66,7 @@ class Navbar extends React.Component {
                                 </div>
                                 <div className="menu_separator"></div>
                                 <div className="menu_links_box2">
-                                    <a href="#codigo">Ética e Compliance</a>
+                                    <a href="/faq/#codigo">Ética e Compliance</a>
                                     <a href="/politicas">Políticas e Privacidade</a>
                                 </div>
                             </div>

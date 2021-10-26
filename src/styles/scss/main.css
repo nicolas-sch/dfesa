@@ -10,6 +10,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   width: 100%;
   height: auto;
@@ -448,7 +452,6 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 1000000;
 }
 
 .navbar .navbar_links .menu .menu_container .menu_rights p {
@@ -7032,6 +7035,9 @@ input {
   display: -ms-flexbox;
   display: flex;
   z-index: 1000000;
+  margin-top: 350px;
+  margin-right: 910px;
+  position: absolute;
 }
 
 @media (max-width: 820px) {
@@ -7050,8 +7056,6 @@ input {
   letter-spacing: 0em;
   text-align: left;
   color: #444444;
-  margin-top: 170px;
-  margin-right: 910px;
 }
 
 @media (max-width: 820px) {

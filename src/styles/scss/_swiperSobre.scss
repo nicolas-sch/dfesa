@@ -1,5 +1,5 @@
 .container2 {
-    width: 100vw;
+    width: 100%;
     height: 400px;
     position: absolute;
     top: 633px;
@@ -92,10 +92,11 @@
     
     
                 .name2_text {
-                    width: auto;
+                    width: 90%;
                     padding-top: 23px;
                     padding-left: 28px;
                     p {
+                        width: 90%;
                         font-family: 'Roboto';
                         font-size: 16px;
                         font-style: normal;
@@ -112,6 +113,25 @@
         display: none;
     }
     .buttons2 {
+        width: 100px;
+        margin-left: 30px;
+        display: flex;
+        gap: 20px;
+        @media (max-width: 480px) {display: none;}
+        button {
+            background: transparent;
+            .fa-chevron-left {
+                color: #EB364E;
+                font-size: 50px;
+            }
+            .fa-chevron-right {
+                color: #EB364E;
+                font-size: 50px;
+            }
+        }
+        
+    }
+    .buttons {
         margin-left: 0px;
         display: flex;
         gap: 20px;
@@ -129,4 +149,5 @@
         }
         
     }
+
 }

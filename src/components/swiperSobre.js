@@ -23,10 +23,11 @@ function CarouselSobre() {
     <div className="container2">
       <div className="carousel2" ref={carousel}>
         <div className="item2">
-            <div className="carousel_title">
-                <h3>1998</h3>
-            </div>
+            
             <div className="info2">
+                <div className="carousel_title">
+                    <h3>1998</h3>
+                </div>
                 <span className="name2">
                 Agosto: implantação do canteiro de obras; início das obras.
                 </span>
@@ -141,6 +142,15 @@ function CarouselSobre() {
 
 
       </div>
+      <div className="buttons2">
+        <button onClick={handleLeftClick}>
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button onClick={handleRightClick}>
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
     </div>
   );
 }

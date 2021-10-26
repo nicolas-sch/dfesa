@@ -5001,7 +5001,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: -2000;
   position: relative;
   margin-top: -350px;
   -webkit-clip-path: polygon(53% 9%, 100% 17%, 100% 100%, 50% 100%, 0% 100%, 0% 0%);
@@ -5022,8 +5021,8 @@ html {
   position: absolute;
   width: 100%;
   height: 1741px;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(85.29%, #FFFFFF), to(rgba(255, 255, 255, 0)));
-  background: linear-gradient(180deg, #FFFFFF 85.29%, rgba(255, 255, 255, 0) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(90.29%, #FFFFFF), to(rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #FFFFFF 90.29%, rgba(255, 255, 255, 0) 100%);
   z-index: 100;
 }
 
@@ -5037,7 +5036,7 @@ html {
   width: 100%;
   height: auto;
   position: absolute;
-  bottom: -380px;
+  bottom: -280px;
   z-index: 99;
 }
 
@@ -5057,7 +5056,7 @@ html {
   position: absolute;
   top: 50px;
   right: 0px;
-  z-index: 102;
+  z-index: 100;
 }
 
 @media (max-width: 480px) {
@@ -5095,6 +5094,7 @@ html {
 
 .sobre_trajetoria .sobre_trajetoria_container .sobre_trajetoria_title {
   width: 495px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5103,7 +5103,6 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   z-index: 999999;
-  margin-top: -700px;
   gap: 30px;
 }
 
@@ -5144,6 +5143,114 @@ html {
   line-height: 29px;
   letter-spacing: 0em;
   text-align: left;
+  color: #161616;
+}
+
+.sobre_trajetoria .trajetoria_numeros {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1216px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-top: 677px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 101;
+}
+
+@media (max-width: 480px) {
+  .sobre_trajetoria .trajetoria_numeros {
+    width: 90%;
+  }
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_title {
+  width: 100%;
+  height: auto;
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_title h3 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_items {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 103px;
+  gap: 50px;
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_items .trajetoria_numeros_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_items .trajetoria_numeros_card h4 {
+  font-family: 'Roboto';
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_items .trajetoria_numeros_card h4 span {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #161616;
+}
+
+.sobre_trajetoria .trajetoria_numeros .trajetoria_numeros_items .trajetoria_numeros_card p {
+  width: 202px;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
   color: #161616;
 }
 
@@ -6240,6 +6347,202 @@ input {
 }
 
 .container .buttons button .fa-chevron-right {
+  color: #EB364E;
+  font-size: 50px;
+}
+
+.container2 {
+  width: 100vw;
+  height: 400px;
+  position: absolute;
+  top: 633px;
+  z-index: 101;
+}
+
+@media (max-width: 480px) {
+  .container2 {
+    width: 100%;
+  }
+}
+
+.container2 .carousel2 {
+  width: 100%;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 20px;
+}
+
+.container2 .carousel2 .item2 {
+  width: 605px;
+  height: 336px;
+  -webkit-box-flex: 0;
+      -ms-flex: none;
+          flex: none;
+  background: #C4C4C4;
+}
+
+@media (max-width: 480px) {
+  .container2 .carousel2 .item2 {
+    width: 100%;
+  }
+}
+
+.container2 .carousel2 .item2 .carousel_title {
+  position: absolute;
+  top: -70px;
+}
+
+@media (max-width: 480px) {
+  .container2 .carousel2 .item2 .carousel_title {
+    display: none;
+  }
+}
+
+.container2 .carousel2 .item2 .carousel_title h3 {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.container2 .carousel2 .item2 .image2 {
+  width: 100%;
+  height: 303px;
+  border-top: 2px solid #4840AB;
+}
+
+.container2 .carousel2 .item2 .image2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.container2 .carousel2 .item2 .info2 {
+  height: 73px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #C4C4C4;
+}
+
+.container2 .carousel2 .item2 .info2 .name2 {
+  width: 100%;
+  height: auto;
+  padding-left: 15px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #444444;
+}
+
+.container2 .carousel2 .item2_text {
+  width: 605px;
+  height: 336px;
+  background: #C4C4C4;
+}
+
+@media (max-width: 480px) {
+  .container2 .carousel2 .item2_text {
+    width: 100%;
+  }
+}
+
+.container2 .carousel2 .item2_text .info2_text {
+  width: 605px;
+  height: 376px;
+  background: #C4C4C4;
+}
+
+@media (max-width: 480px) {
+  .container2 .carousel2 .item2_text .info2_text {
+    width: 100vw;
+  }
+}
+
+.container2 .carousel2 .item2_text .info2_text .carousel_title {
+  position: absolute;
+  top: -70px;
+}
+
+@media (max-width: 480px) {
+  .container2 .carousel2 .item2_text .info2_text .carousel_title {
+    display: none;
+  }
+}
+
+.container2 .carousel2 .item2_text .info2_text .carousel_title h3 {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.container2 .carousel2 .item2_text .info2_text .name2_text {
+  width: auto;
+  padding-top: 23px;
+  padding-left: 28px;
+}
+
+.container2 .carousel2 .item2_text .info2_text .name2_text p {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
+}
+
+.container2 ::-webkit-scrollbar {
+  display: none;
+}
+
+.container2 .buttons2 {
+  margin-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 480px) {
+  .container2 .buttons2 {
+    display: none;
+  }
+}
+
+.container2 .buttons2 button {
+  background: transparent;
+}
+
+.container2 .buttons2 button .fa-chevron-left {
+  color: #EB364E;
+  font-size: 50px;
+}
+
+.container2 .buttons2 button .fa-chevron-right {
   color: #EB364E;
   font-size: 50px;
 }

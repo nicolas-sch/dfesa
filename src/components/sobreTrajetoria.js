@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/scss/main.css';
 import VectorTrajetoria from '../assets/Vector_sobre_trajetoria_desk.png';
 import BGSobreBottom from '../assets/BG_Sobre_bottom_desk.png';
-
+import CarouselSobre from './swiperSobre';
 
 export class SobreTrajetoria extends React.Component {
 
@@ -30,8 +30,38 @@ export class SobreTrajetoria extends React.Component {
                         a história começa ainda antes.
                     </p>
                 </div>
+
+            </div>
+            <CarouselSobre />
+            <div className="trajetoria_numeros">
+              <div className="trajetoria_numeros_title">
+                <h3>A Construção em números</h3>
+              </div>
+              <div className="trajetoria_numeros_items">
+                <div className="trajetoria_numeros_card">
+                  <h4>1.065.000<span>m³</span></h4>
+                  <p>Escavação comum</p>
+                </div>
+                <div className="trajetoria_numeros_card">
+                  <h4>1.107.000<span>m³</span></h4>
+                  <p>Escavação em rocha</p>
+                </div>
+                <div className="trajetoria_numeros_card">
+                  <h4>165.000<span>m³</span></h4>
+                  <p>Concreto convencional</p>
+                </div>
+                <div className="trajetoria_numeros_card">
+                  <h4>106.000<span>m³</span></h4>
+                  <p>Fornecimento de cimento</p>
+                </div>
+                <div className="trajetoria_numeros_card">
+                  <h4>4.630<span>m³</span></h4>
+                  <p>Fornecimento de aço</p>
+                </div>
+              </div>
             </div>
         </section>
+
       </div>
     );
   }

@@ -30,7 +30,6 @@ export class Footer extends React.Component {
                         <i class="fab fa-linkedin-in"></i>
                         <span>Linkedin</span>
                     </div>
-                    <iframe scrolling="no" frameborder="0" marginwidth="0" marginheight="0" width="120" height="170" src="https://selos.climatempo.com.br/selos/MostraSelo120.php?CODCIDADE=363&SKIN=padrao"></iframe>
                 </div>
                 <div className="footer_rights">
                    <p>© 2021 - DFESA. Todos os direitos reservados.</p> 

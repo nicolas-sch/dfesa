@@ -30,9 +30,9 @@ export class SobreTrajetoria extends React.Component {
                         a história começa ainda antes.
                     </p>
                 </div>
-
             </div>
             <CarouselSobre />
+
             <div className="trajetoria_numeros">
               <div className="trajetoria_numeros_title">
                 <h3>A Construção em números</h3>

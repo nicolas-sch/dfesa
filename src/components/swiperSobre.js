@@ -1,5 +1,4 @@
 import React, { Component, useRef } from "react";
-import Slider from "react-slick";
 import '../styles/scss/main.css';
 import ImageTime from "../assets/Time_line_image1.png";
 

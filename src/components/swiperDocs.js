@@ -9,12 +9,12 @@ function Carousel() {
   
   const handleLeftClick = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft -= 306;
+    carousel.current.scrollLeft -= 316;
   }
   
   const handleRightClick = (e) => {
     e.preventDefault();
-    carousel.current.scrollLeft += 306;
+    carousel.current.scrollLeft += 316;
   }
   
   

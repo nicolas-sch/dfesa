@@ -1,8 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
 import AboutDesk from '../assets/About_image_desk.png';
-
-import VectorAbout from '../assets/Vector_about.png';
+import VectorAbout from '../assets/Vector_about_home.png';
 
 export class About extends React.Component {
 
@@ -10,6 +9,9 @@ export class About extends React.Component {
     return (
       <div>
         <section className="about">
+          <div className="about_home_layer">
+            <img src={VectorAbout} alt="Vector About" />
+          </div>
             <div className="about_container">
                 <div className="about_text">
                     <p>

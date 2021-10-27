@@ -5,7 +5,8 @@ import News2 from '../assets/News2_desk.png';
 import News3 from '../assets/News3_desk.png';
 import News4 from '../assets/News4_desk.png';
 import Slide from 'react-reveal/Slide';
-import Zoom from 'react-reveal/Zoom';
+import Zoom from 'react-reveal/Zoom'; 
+import VectorNews from '../assets/Vector_news.png';
 
 export class News extends React.Component {
 
@@ -13,6 +14,9 @@ export class News extends React.Component {
     return (
       <div>
         <section className="news">
+        <div className="about_home_layer">
+            <img src={VectorNews} alt="Vector News" />
+          </div>
             <div className="news_container">
                 <div className="news_text">
                 <Slide left>

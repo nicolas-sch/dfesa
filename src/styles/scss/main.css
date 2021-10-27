@@ -6385,11 +6385,13 @@ input {
 .container .buttons button .fa-chevron-left {
   color: #EB364E;
   font-size: 50px;
+  cursor: pointer;
 }
 
 .container .buttons button .fa-chevron-right {
   color: #EB364E;
   font-size: 50px;
+  cursor: pointer;
 }
 
 .container2 {
@@ -6609,11 +6611,13 @@ input {
 .container2 .buttons2 button .fa-chevron-left {
   color: #EB364E;
   font-size: 50px;
+  cursor: pointer;
 }
 
 .container2 .buttons2 button .fa-chevron-right {
   color: #EB364E;
   font-size: 50px;
+  cursor: pointer;
 }
 
 .container2 .buttons {

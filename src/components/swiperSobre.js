@@ -42,7 +42,7 @@ function CarouselSobre() {
             </div>
             <div className="info2_text">
                 <div className="name2_text">
-                    <p>
+                <p>
                     Janeiro: primeira fase do desvio do rio;
                     <br></br>
                     Fevereiro: início das escavações do circuito de geração, da barragem e do vertedouro;
@@ -67,61 +67,34 @@ function CarouselSobre() {
             <div className="info2_text">
                 <div className="name2_text">
                     <p>
-                    Janeiro: primeira fase do desvio do rio;
+                    Março: início da montagem da turbina Unidade II (pré-distribuidor) e do estator da Unidade I.
                     <br></br>
-                    Fevereiro: início das escavações do circuito de geração, da barragem e do vertedouro;
+                    Maio: início da montagem do rotor do gerador da Unidade I.
                     <br></br>
-                    Maio: início do uso do Concreto Compacto a Rolo (CCR);
+                    Novembro: fechamento das adufas de desvio e a consequente formação do reservatório (19 km²).
                     <br></br>
-                    Junho: conclusão das escavações do circuito de geração, da barragem e do vertedouro (margem direita);
-                    <br></br>
-                    Julho: início da montagem dos condutos forçados e das concretagens da tomada d’água;
-                    <br></br>
-                    Novembro: segunda fase do desvio do rio;
-                    <br></br>
-                    Dezembro: início da montagem da turbina Unidade I (pré-distribuidor).
                     </p>
                 </div>
             </div>
         </div>
-        <div className="item2">
-            <div className="carousel_title">
-                <h3>2001</h3>
-            </div>
-            <div className="info2">
-                <span className="name2">
-                Agosto: implantação do canteiro de obras; início das obras.
-                </span>
-            </div>
-            <div className="image2">
-                <img src={ImageTime} alt="image time" />
-            </div>
-        </div>
-        
         <div className="item2_text">
             <div className="carousel_title">
-                <h3>2002</h3>
+                <h3>2001</h3>
             </div>
             <div className="info2_text">
                 <div className="name2_text">
                     <p>
-                    Janeiro: primeira fase do desvio do rio;
+                    Fevereiro: início da operação comercial na Unidade I da usina.
                     <br></br>
-                    Fevereiro: início das escavações do circuito de geração, da barragem e do vertedouro;
+                    Abril: início da operação comercial na Unidade II da usina.
                     <br></br>
-                    Maio: início do uso do Concreto Compacto a Rolo (CCR);
+                    Maio: inauguração da DFESA - Dona Francisca Energética S.A.
                     <br></br>
-                    Junho: conclusão das escavações do circuito de geração, da barragem e do vertedouro (margem direita);
-                    <br></br>
-                    Julho: início da montagem dos condutos forçados e das concretagens da tomada d’água;
-                    <br></br>
-                    Novembro: segunda fase do desvio do rio;
-                    <br></br>
-                    Dezembro: início da montagem da turbina Unidade I (pré-distribuidor).
                     </p>
                 </div>
             </div>
         </div>
+        
 
       </div>
       <div className="buttons2">

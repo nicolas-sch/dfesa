@@ -174,7 +174,7 @@ body {
 
 .navbar .navbar_links .menu .menu_container {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1079,7 +1079,7 @@ body {
 .about {
   width: 100%;
   height: auto;
-  background: #e84359;
+  background: #eb3c53;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6394,9 +6394,9 @@ input {
 
 .container2 {
   width: 100%;
-  height: 400px;
+  height: 440px;
   position: absolute;
-  top: 633px;
+  top: 550px;
   z-index: 101;
 }
 
@@ -6408,7 +6408,7 @@ input {
 
 .container2 .carousel2 {
   width: 100%;
-  height: 400px;
+  height: 480px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6423,7 +6423,6 @@ input {
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
-  background: #C4C4C4;
 }
 
 @media (max-width: 480px) {
@@ -6433,8 +6432,11 @@ input {
 }
 
 .container2 .carousel2 .item2 .carousel_title {
-  position: absolute;
-  top: -70px;
+  width: 605px;
+  height: 40px;
+  padding: 20px 0;
+  background: transparent;
+  position: relative;
 }
 
 @media (max-width: 480px) {
@@ -6496,13 +6498,37 @@ input {
 .container2 .carousel2 .item2_text {
   width: 605px;
   height: 336px;
-  background: #C4C4C4;
 }
 
 @media (max-width: 480px) {
   .container2 .carousel2 .item2_text {
     width: 100%;
   }
+}
+
+.container2 .carousel2 .item2_text .carousel_title {
+  width: 605px;
+  height: 40px;
+  padding: 20px 0;
+  background: transparent;
+  position: relative;
+}
+
+@media (max-width: 480px) {
+  .container2 .carousel2 .item2_text .carousel_title {
+    display: none;
+  }
+}
+
+.container2 .carousel2 .item2_text .carousel_title h3 {
+  font-family: 'Roboto';
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #161616;
 }
 
 .container2 .carousel2 .item2_text .info2_text {

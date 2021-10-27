@@ -1,13 +1,13 @@
 .container2 {
     width: 100%;
-    height: 400px;
+    height: 440px;
     position: absolute;
-    top: 633px;
+    top: 550px;
     z-index: 101;
     @media (max-width: 480px) {width: 100%;}
     .carousel2 {
         width: 100%;
-        height: 400px;
+        height: 480px;
         display: flex;
         overflow-x: auto;
         scroll-behavior: smooth;
@@ -16,11 +16,13 @@
             width: 605px;
             height: 336px;
             flex: none;
-            background: #C4C4C4;
             @media (max-width: 480px) {width: 100%;}
             .carousel_title {
-                position: absolute;
-                top: -70px;
+                width: 605px;
+                height: 40px;
+                padding: 20px 0;
+                background: transparent;
+                position: relative;
                 @media (max-width: 480px) {display: none;}
                 h3 {
                     font-family: 'Roboto';
@@ -66,8 +68,26 @@
         .item2_text {
             width: 605px;
             height: 336px;
-            background: #C4C4C4;
             @media (max-width: 480px) {width: 100%;}
+            .carousel_title {
+                width: 605px;
+                height: 40px;
+                padding: 20px 0;
+                background: transparent;
+                position: relative;
+                @media (max-width: 480px) {display: none;}
+                h3 {
+                    font-family: 'Roboto';
+                    font-size: 36px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 43px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #161616;
+                }
+            }
+
             .info2_text {
                 width: 605px;
                 height: 376px;

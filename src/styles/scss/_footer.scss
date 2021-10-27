@@ -139,6 +139,22 @@
                     @media (max-width: 480px) {color: #EB364E;}
                 }
             }
+            .utils_icons {
+                width: 100%;
+                display: flex;
+                gap: 5px;
+                justify-content: flex-end;
+                align-items: center;
+                a {
+                    width: 70px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                img {
+                    width: 100%;
+                }
+            }
         }
         .footer_rights {
             height: 24px;

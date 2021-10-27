@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import News1 from '../assets/News1_desk.png';
-import News2 from '../assets/News2_desk.png';
-import News3 from '../assets/News3_desk.png';
-import News4 from '../assets/News4_desk.png';
+import News1 from '../assets/News1_desk.webp';
+import News2 from '../assets/News2_desk.webp';
+import News3 from '../assets/News3_desk.webp';
+import News4 from '../assets/News4_desk.webp';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom'; 
-import VectorNews from '../assets/Vector_news.png';
+import VectorNews from '../assets/Vector_news.webp';
 
 export class News extends React.Component {
 

@@ -1,9 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import { render } from 'react-dom';
 import '../styles/scss/main.css';
-import Logo from '../assets/Logo.png';
-import LogoMenu from '../assets/Logo_menu_desk.png';
-import LogoMenu2 from '../assets/Logo_menu_desk2.png';
+import Logo from '../assets/Logo.webp';
+import LogoMenu from '../assets/Logo_menu_desk.webp';
+import LogoMenu2 from '../assets/Logo_menu_desk2.webp';
 
 class Navbar extends React.Component {
   

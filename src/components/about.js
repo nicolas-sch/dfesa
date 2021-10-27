@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import AboutDesk from '../assets/About_image_desk.png';
-import VectorAbout from '../assets/Vector_about_home.png';
+import AboutDesk from '../assets/About_image_desk.webp';
+import VectorAbout from '../assets/Vector_about_home.webp';
 
 export class About extends React.Component {
 

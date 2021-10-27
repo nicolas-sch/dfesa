@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGReservatorio from '../assets/BG_Reservatorio_desk.png';
+import BGReservatorio from '../assets/BG_Reservatorio_desk.webp';
 
 export class Reservatorio extends React.Component {
 

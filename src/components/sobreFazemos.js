@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import VectorSobreImage from '../assets/Vector_sobre_fazemos_desk.png';
-import SobreFazemosImage from '../assets/Sobre_fazemos_image_desk.png';
+import VectorSobreImage from '../assets/Vector_sobre_fazemos_desk.webp';
+import SobreFazemosImage from '../assets/Sobre_fazemos_image_desk.webp';
 
 export class SobreFazemos extends React.Component {
 

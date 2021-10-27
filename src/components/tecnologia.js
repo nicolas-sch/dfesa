@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import TecnologiaImage from '../assets/Tecnologia_image_desk.png';
+import TecnologiaImage from '../assets/Tecnologia_image_desk.webp';
 
 export class Tecnologia extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGFaq from '../assets/BG_faq_canal_desk.png';
+import BGFaq from '../assets/BG_faq_canal_desk.webp';
 
 export class FaqCanal extends React.Component {
 

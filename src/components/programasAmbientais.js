@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGBloco1 from '../assets/BG_Programas_bloco1_desk.png';
-import BGBloco3 from '../assets/BG_Programas_bloco3_desk.png';
+import BGBloco1 from '../assets/BG_Programas_bloco1_desk.webp';
+import BGBloco3 from '../assets/BG_Programas_bloco3_desk.webp';
 
 export class ProgramasAmbientais extends React.Component {
 

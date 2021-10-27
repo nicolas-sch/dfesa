@@ -1,7 +1,7 @@
 import React, {useEffect, useState, Component} from "react";
 import '../styles/scss/main.css';
-import FormBg from '../assets/BG_form_desk.png';
-import FormVector from '../assets/Vector_form_desk.png';
+import FormBg from '../assets/BG_form_desk.webp';
+import FormVector from '../assets/Vector_form_desk.webp';
 
 
 const initialState = {

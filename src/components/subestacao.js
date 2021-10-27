@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGSubestacao from '../assets/BG_subestacao_desk.png';
+import BGSubestacao from '../assets/BG_subestacao_desk.webp';
 
 export class Subestacao extends React.Component {
 

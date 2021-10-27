@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import AboutParqueImage from '../assets/About_parque_image_desk.png';
-import VectorParque from '../assets/Vector_desenvolvimento_black_desk.png';
+import AboutParqueImage from '../assets/About_parque_image_desk.webp';
+import VectorParque from '../assets/Vector_desenvolvimento_black_desk.webp';
 
 export class AboutParque extends React.Component {
 

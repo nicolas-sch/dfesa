@@ -928,7 +928,7 @@ body {
 .hero {
   width: 100%;
   height: 1228px;
-  background: url(../../assets/HeroBG_Desk.png);
+  background: url(../../assets/HeroBG_Desk.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3576,7 +3576,7 @@ body {
 .duvidas {
   width: 100%;
   height: 370px;
-  background: url(../../assets/BG_Duvidas_desk.png);
+  background: url(../../assets/BG_Duvidas_desk.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -3713,7 +3713,7 @@ body {
 .hero_sustentabilidade {
   width: 100%;
   height: 761px;
-  background: url(../../assets/BG_Sustentabilidade_desk.png);
+  background: url(../../assets/BG_Sustentabilidade_desk.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -4496,7 +4496,7 @@ body {
 .hero_sobre {
   width: 100%;
   height: 761px;
-  background: url(../../assets/BG_Sobre_desk.png);
+  background: url(../../assets/BG_Sobre_desk.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5281,7 +5281,7 @@ body {
 .hero_faq {
   width: 100%;
   height: 761px;
-  background: url(../../assets/BG_Faq_desk.png);
+  background: url(../../assets/BG_Faq_desk.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -6651,7 +6651,7 @@ input {
 .hero_politicas {
   width: 100%;
   height: 761px;
-  background: url(../../assets/BG_Politicas_Desk.png);
+  background: url(../../assets/BG_Politicas_Desk.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

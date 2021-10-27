@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGCasa from '../assets/BG_casa_desk.png';
+import BGCasa from '../assets/BG_casa_desk.webp';
 
 export class Casa extends React.Component {
 

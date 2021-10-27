@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import EstruturaImage from '../assets/BG_sobre_estrutura_desk.png';
-import EstruturaTabela from '../assets/Estrutura_tabela_desk.png';
+import EstruturaImage from '../assets/BG_sobre_estrutura_desk.webp';
+import EstruturaTabela from '../assets/Estrutura_tabela_desk.webp';
 
 export class SobreEstrutura extends React.Component {
 

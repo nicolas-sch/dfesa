@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import VectorDocumentos from '../assets/Vector_faq_documentos_desk.png';
+import VectorDocumentos from '../assets/Vector_faq_documentos_desk.webp';
 import Carousel from './swiperDocs';
 
 export class FaqDocumentos extends React.Component {

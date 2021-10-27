@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import PoliticasVector from '../assets/Vector_Politicas_desk.png';
+import PoliticasVector from '../assets/Vector_Politicas_desk.webp';
 
 export class PoliticasText extends React.Component {
 

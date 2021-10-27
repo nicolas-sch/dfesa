@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import LogoFooter from '../assets/Logo_Footer.png';
+import LogoFooter from '../assets/Logo_Footer.webp';
 
 export class Footer extends React.Component {
 

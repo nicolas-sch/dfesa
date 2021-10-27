@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import VectorTrajetoria from '../assets/Vector_sobre_trajetoria_desk.png';
-import BGSobreBottom from '../assets/BG_Sobre_bottom_desk.png';
+import VectorTrajetoria from '../assets/Vector_sobre_trajetoria_desk.webp';
+import BGSobreBottom from '../assets/BG_Sobre_bottom_desk.webp';
 import CarouselSobre from './swiperSobre';
 
 export class SobreTrajetoria extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGBarragem from '../assets/BG_Barragem_desk.png';
+import BGBarragem from '../assets/BG_Barragem_desk.webp';
 
 export class Barragem extends React.Component {
 

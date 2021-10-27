@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import VectorAreas from '../assets/Vector_Areas_desk.png';
+import VectorAreas from '../assets/Vector_Areas_desk.webp';
 
 export class Areas extends React.Component {
 

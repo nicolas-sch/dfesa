@@ -1,7 +1,6 @@
 import React, { Component, useRef } from "react";
-import Slider from "react-slick";
 import '../styles/scss/main.css';
-import ImageDoc from "../assets/Card_doc1.png"
+import ImageDoc from "../assets/Card_doc1.webp"
 
 
 function Carousel() {

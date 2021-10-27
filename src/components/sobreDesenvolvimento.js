@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import VectorDesenvolvimento from '../assets/Vector_desenvolvimento_desk.png';
+import VectorDesenvolvimento from '../assets/Vector_desenvolvimento_desk.webp';
 
 export class SobreDesenvolvimento extends React.Component {
 

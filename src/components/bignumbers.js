@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import Big1 from '../assets/Big_Image1_desk.png';
-import Big2 from '../assets/Big_Image2_desk.png';
-import Big3 from '../assets/Big_Image3_desk.png';
-import BGEstruturas from '../assets/BG_estruturas_desk.png';
+import Big1 from '../assets/Big_Image1_desk.webp';
+import Big2 from '../assets/Big_Image2_desk.webp';
+import Big3 from '../assets/Big_Image3_desk.webp';
+import BGEstruturas from '../assets/BG_estruturas_desk.webp';
 import Zoom from 'react-reveal/Zoom';
 
 export class BigNumbers extends React.Component {

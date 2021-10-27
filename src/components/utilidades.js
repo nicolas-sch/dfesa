@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import UtilidadesImage1 from '../assets/utilidades_image1_desk.png';
-import UtilidadesImage2 from '../assets/utilidades_image2_desk.png';
-import UtilidadesImage3 from '../assets/utilidades_image3_desk.png';
-import UtilidadesImage4 from '../assets/utilidades_image4_desk.png';
-import VectorUtilidades from '../assets/Vector_Utilidades_desk.png';
+import UtilidadesImage1 from '../assets/utilidades_image1_desk.webp';
+import UtilidadesImage2 from '../assets/utilidades_image2_desk.webp';
+import UtilidadesImage3 from '../assets/utilidades_image3_desk.webp';
+import UtilidadesImage4 from '../assets/utilidades_image4_desk.webp';
+import VectorUtilidades from '../assets/Vector_Utilidades_desk.webp';
 
 export class Utilidades extends React.Component {
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/scss/main.css';
-import BGVertedouro from '../assets/BG_Vertedouro_desk.png';
+import BGVertedouro from '../assets/BG_Vertedouro_desk.webp';
 
 export class Vertedouro extends React.Component {
 

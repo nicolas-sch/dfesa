@@ -6,16 +6,16 @@ import HeroPoliticas from '../components/politicasHero';
 import PoliticasText from '../components/politicasText';
 
 export class Politicas extends React.Component {
-    render() {
-      return (
-        <>
-        <Navbar />
-        <HeroPoliticas />
-        <PoliticasText />
-        <Footer />
-        </>
-      );
-    }
+  render() {
+    return (
+      <>
+      <Navbar />
+      <HeroPoliticas />
+      <PoliticasText />
+      <Footer />
+      </>
+    );
   }
+}
   
-  export default Politicas;
+export default Politicas;

@@ -1,9 +1,12 @@
 import React, { Component, useRef } from "react";
+import axios from 'axios';
 import '../styles/scss/main.css';
 import ImageTime from "../assets/Time_line_image1.webp";
 
 
 function CarouselSobre() {
+  
+  
   const carousel = useRef(null);
   
   const handleLeftClick = (e) => {

@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/scss/main.css';
 import Navbar from '../components/navbar';
 import FaqHero from '../components/faqHero';
-import FaqPerguntas from '../components/faqPerguntas';
+import { FaqPerguntas } from '../components/faqPerguntas';
 import Form from '../components/form';
 import Footer from '../components/footer';
 import FaqCanal from '../components/faqCanal';

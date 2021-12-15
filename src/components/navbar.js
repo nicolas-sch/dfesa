@@ -60,14 +60,14 @@ class Navbar extends React.Component {
                                 <div className="menu_logo">
                                     <img src={LogoMenu} alt="Logo Menu" />
                                 </div>
-                                    <a href="/sustentabilidadeedesenvolvimento">Sustentabilidade & desenvolvimento</a>
                                     <a href="/sobre">Sobre</a>
-                                    <a href="/faq">FAQ e Contato</a>
+                                    <a href="/sustentabilidadeedesenvolvimento">Sustentabilidade & desenvolvimento</a>
+                                    <a href="/faq/#codigo">Ética e Compliance</a>
                                 </div>
                                 <div className="menu_separator"></div>
                                 <div className="menu_links_box2">
-                                    <a href="/faq/#codigo">Ética e Compliance</a>
-                                    <a href="/politicas">Políticas e Privacidade</a>
+                                    <a href="/faq">FAQ e Contato</a>
+                                    <a href="/politicas">Política de Privacidade</a>
                                 </div>
                             </div>
                             <div className="menu_socials">

@@ -1,36 +1,52 @@
 import React from 'react';
+import axios from 'axios';
 import '../styles/scss/main.css';
-import AboutDesk from '../assets/About_image_desk.webp';
+// import AboutDesk from '../assets/About_image_desk.webp';
 import VectorAbout from '../assets/Vector_about_home.webp';
 
 export class About extends React.Component {
-
+  state = {
+    homes: [],
+    error: null,
+  };
+  
+  
+  componentDidMount = async () => {
+    try {
+      const response = await axios.get('http://localhost:1337/homes');
+      this.setState({ homes: response.data });
+    } catch (error) {
+      this.setState({ error });
+    }
+  };
+  
   render() {
+    const { error, home } = this.state;
+
+    // Print errors if any
+    if (error) {
+      return <div>An error occured: {error.message}</div>;
+    }
+
     return (
       <div>
-        <section className="about">
-          <div className="about_home_layer">
-            <img src={VectorAbout} alt="Vector About" />
-          </div>
-            <div className="about_container">
-                <div className="about_text">
-                    <p>
-                      A Usina Hidrelétrica (UHE) DFESA se localiza às margens do Rio Jacuí, 
-                      numa área entre os municípios de Agudo e Nova Palma, no Rio Grande do Sul. 
-                      Em atividade desde 2001, a UHE, atualmente, produz energia para as operações 
-                      dos seus acionistas e está na busca constante por inovações tecnológicas que 
-                      proporcionem a excelência em sustentabilidade e segurança. 
-                    </p>
-                </div>
-                <div className="about_image">
-                  <img src={AboutDesk} alt="About image" />
-                </div>
-            </div>
-            {/* <div className="Vector_about">
+        {this.state.homes.map(home => (
+          <section className="about">
+            <div className="about_home_layer">
               <img src={VectorAbout} alt="Vector About" />
-            </div> */}
-        </section>
-        
+            </div>
+              <div className="about_container">
+                  <div className="about_text">
+                      <p>
+                        {home.aboutText}
+                      </p>
+                  </div>
+                  <div className="about_image">
+                    <img src={`http://localhost:1337${home.aboutImage.formats.large.url}`} alt="About image" />
+                  </div>
+              </div>
+          </section>
+        ))}     
       </div>
     );
   }

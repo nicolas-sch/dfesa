@@ -6,7 +6,7 @@ import HeroSustentabilidade from '../components/heroSustentabilidade';
 import AboutSustentabilidade from '../components/aboutSustentabilidade';
 import AboutParque from '../components/aboutParque';
 import ProgramasAmbientais from '../components/programasAmbientais';
-import Utilidades from '../components/utilidades';
+// import Utilidades from '../components/utilidades';
 
 export class Sustentabilidade extends React.Component {
     render() {
@@ -17,7 +17,7 @@ export class Sustentabilidade extends React.Component {
         <AboutSustentabilidade />
         <AboutParque />
         <ProgramasAmbientais />
-        <Utilidades />
+        {/* <Utilidades /> */}
         <Footer />
         
         

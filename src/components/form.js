@@ -89,9 +89,6 @@ export class ValiationForm extends Component {
         <div className="form_bg">
             <img src={FormBg} alt="BG form" />
         </div>
-        {/* <div className="form_vector">
-            <img src={FormVector} alt="Vector form" />
-        </div> */}
       <form className="form2container" onSubmit={this.handleSubmit}>
         <div className="form-group"> 
           <input

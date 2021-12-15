@@ -10,7 +10,7 @@ export class Areas extends React.Component {
         <section className="areas">
             <div className="areas_container">
                 <div className="areas_text">
-                    <h3>Áreas Atingidas</h3>
+                    <h3>Áreas de abrangência</h3>
                     <p>2.098 hectares entre os municípios de Ibarama, Agudo, Nova Palma, Pinhal Grande, Estrela Velha e Arroio do Tigre.</p>
                 </div>
                 <div className="areas_text">

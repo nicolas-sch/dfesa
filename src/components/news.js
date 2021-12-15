@@ -1,4 +1,5 @@
 import React from 'react';
+import axios from 'axios';
 import '../styles/scss/main.css';
 import News1 from '../assets/News1_desk.webp';
 import News2 from '../assets/News2_desk.webp';
@@ -9,14 +10,34 @@ import Zoom from 'react-reveal/Zoom';
 import VectorNews from '../assets/Vector_news.webp';
 
 export class News extends React.Component {
-
+    state = {
+        homes: [],
+        error: null,
+    };
+        
+    componentDidMount = async () => {
+        try {
+            const response = await axios.get('http://localhost:1337/homes');
+            this.setState({ homes: response.data });
+        } catch (error) {
+            this.setState({ error });
+        }
+    };
+    
   render() {
+    const { error, home } = this.state;
+
+    // Print errors if any
+    if (error) {
+      return <div>An error occured: {error.message}</div>;
+    }
     return (
       <div>
+        {this.state.homes.map(home => (
         <section className="news">
-        <div className="about_home_layer">
-            <img src={VectorNews} alt="Vector News" />
-          </div>
+            <div className="about_home_layer">
+                <img src={VectorNews} alt="Vector News" />
+            </div>
             <div className="news_container">
                 <div className="news_text">
                 <Slide left>
@@ -27,11 +48,11 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={News1} alt="Notícia 1" />
+                            <img src={`http://localhost:1337${home.noticiasImagem1.url}`} alt="Notícia 1" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
-                            <h5>Notícia 1</h5>
+                            <h5>{home.noticiasTitulo1}</h5>
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
@@ -41,11 +62,11 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={News2} alt="Notícia 2" />
+                            <img src={`http://localhost:1337${home.noticiasImagem2.url}`} alt="Notícia 2" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
-                            <h5>Notícia 2</h5>
+                            <h5>{home.noticiasTitulo2}</h5>
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
@@ -55,11 +76,11 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={News3} alt="Notícia 3" />
+                            <img src={`http://localhost:1337${home.noticiasImagem4.url}`} alt="Notícia 3" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
-                            <h5>Notícia 3</h5>
+                            <h5>{home.noticiasTitulo3}</h5>
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
@@ -69,11 +90,11 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={News4} alt="Notícia 4" />
+                            <img src={`http://localhost:1337${home.noticiasImagem4.url}`} alt="Notícia 4" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
-                            <h5>Notícia 4</h5>
+                            <h5>{home.noticiasTitulo4}</h5>
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
@@ -83,6 +104,7 @@ export class News extends React.Component {
                 </div>
             </div>
         </section>
+        ))} 
       </div>
     );
   }

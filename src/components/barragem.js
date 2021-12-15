@@ -14,7 +14,7 @@ export class Barragem extends React.Component {
             </div>
             <div className="barragem_container">
                 <div className="barragem_title">
-                    <h3>A Barragem</h3>
+                    <h3>Barragem</h3>
                     <p>Gravidade em Concreto Compactado a Rolo (CCR)</p>
                 </div>
                 

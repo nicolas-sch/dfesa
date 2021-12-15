@@ -17,14 +17,14 @@ export class Footer extends React.Component {
                         <img src={LogoFooter} alt="Logo Footer" />
                     </div>
                     <div className="footer_links_box">
-                        <a href="/sustentabilidadeedesenvolvimento">Sustentabilidade & desenvolvimento</a>
                         <a href="/sobre">Sobre</a>
-                        <a href="/faq">FAQ e Contato</a>
+                        <a href="/sustentabilidadeedesenvolvimento">Sustentabilidade & desenvolvimento</a>
+                        <a href="/faq/#codigo">Ética e Compliance</a>
                     </div>
                     <div className="footer_separator"></div>
                     <div className="footer_links_box2">
-                        <a href="/faq/#codigo">Ética e Compliance</a>
-                        <a href="/politicas">Políticas e Privacidade</a>
+                        <a href="/faq">FAQ e Contato</a>
+                        <a href="/politicas">Política de Privacidade</a>
                     </div>
                 </div>
                 <div className="footer_socials">

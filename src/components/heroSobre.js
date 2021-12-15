@@ -1,19 +1,42 @@
 import React from 'react';
+import axios from 'axios';
 import '../styles/scss/main.css';
 
 export class HeroSobre extends React.Component {
+  state = {
+    sobres: [],
+    error: null,
+  };
+  
+  
+  componentDidMount = async () => {
+    try {
+      const response = await axios.get('http://localhost:1337/sobres');
+      this.setState({ sobres: response.data });
+    } catch (error) {
+      this.setState({ error });
+    }
+  };
 
   render() {
+    const { error, sobre} = this.state;
+
+    // Print errors if any
+    if (error) {
+      return <div>An error occured: {error.message}</div>;
+    }
     return (
       <div>
-        <section className="hero_sobre">
-            <div className="hero_sobre_container">
-                <div className="hero_sobre_text">
-                    <h2>O que fazemos?</h2>
-                    <p>Produzimos energia com excelência e responsabilidade para as operações dos nossos quatro acionistas.</p>
+        {this.state.sobres.map(sobre => (
+            <section className="hero_sobre">
+                <div className="hero_sobre_container">
+                    <div className="hero_sobre_text">
+                        <h2>{sobre.sobreHeroTitulo}</h2>
+                        <p>{sobre.sobreHeroText}</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        ))}
       </div>
     );
   }

@@ -86,8 +86,10 @@
         }
         .utilidades_text_bottom {
             display: flex;
+            flex-direction: column;
             align-items: center;
             justify-content: center;
+            gap: 20px;
             width: 866px;
             margin-top: -68px;
             @media (max-width: 480px) {width: 90%;}

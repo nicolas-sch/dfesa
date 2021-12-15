@@ -32,7 +32,7 @@ function Carousel() {
               Código de Ética &
               Conduta Gerdau
             </span>
-            <a href="">Download</a>
+            <a href="../assets/Contatos_externos.pdf" download>Download</a>
           </div>
         </div>
         
@@ -45,7 +45,7 @@ function Carousel() {
               Código de Ética &
               Conduta para terceiros
             </span>
-            <a href="">Download</a>
+            <a href="../assets/Contatos_externos.pdf" download>Download</a>
           </div>
         </div>
         

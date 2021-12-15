@@ -16,7 +16,7 @@ export class SobreEstrutura extends React.Component {
             <div className="sobre_estrutura_container">
                 <div className="sobre_estrutura_title">
                     <h3>
-                        Estrutura Societária
+                        Estrutura societária
                     </h3>
                     <img src={EstruturaTabela} alt="Tabela acionistas" />
                 </div>

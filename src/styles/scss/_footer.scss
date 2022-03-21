@@ -127,16 +127,20 @@
                     cursor: pointer;
                     @media (max-width: 480px) {color: #0072b1;}
                 }
-                span {
-                    font-family: 'Roboto';
-                    font-size: 18px;
-                    font-style: normal;
-                    font-weight: 500;
-                    line-height: 29px;
-                    letter-spacing: 0em;
-                    text-align: right;
-                    color: #FAF9F9;
-                    @media (max-width: 480px) {color: #0072b1;}
+                a {
+                    text-decoration: none;
+                    span {
+                        font-family: 'Roboto';
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 29px;
+                        letter-spacing: 0em;
+                        text-align: right;
+                        color: #FAF9F9;
+                        text-decoration: none;
+                        @media (max-width: 480px) {color: #0072b1;}
+                    }
                 }
             }
             .utils_icons {

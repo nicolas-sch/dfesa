@@ -7133,7 +7133,11 @@ input {
   }
 }
 
-.footer .footer_container .footer_socials .social_icons span {
+.footer .footer_container .footer_socials .social_icons a {
+  text-decoration: none;
+}
+
+.footer .footer_container .footer_socials .social_icons a span {
   font-family: 'Roboto';
   font-size: 18px;
   font-style: normal;
@@ -7142,10 +7146,11 @@ input {
   letter-spacing: 0em;
   text-align: right;
   color: #FAF9F9;
+  text-decoration: none;
 }
 
 @media (max-width: 480px) {
-  .footer .footer_container .footer_socials .social_icons span {
+  .footer .footer_container .footer_socials .social_icons a span {
     color: #0072b1;
   }
 }

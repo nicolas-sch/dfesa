@@ -14,11 +14,6 @@ const data = {
         content:
           "Abaixo, faça o download de todos os contatos que podem te ajudar."
       },
-      {
-        title: "Curiosidades",
-        content:
-          "Abaixo, faça o download de todos os contatos que podem te ajudar."
-      },
     ]
   };
   

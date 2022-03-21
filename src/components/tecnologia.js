@@ -12,7 +12,7 @@ export class Tecnologia extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/homes');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
       this.setState({ homes: response.data });
     } catch (error) {
       this.setState({ error });
@@ -32,7 +32,7 @@ export class Tecnologia extends React.Component {
           <section className="tecnologia">
             <div className="tecnologia_container">
                 <div className="tecnologia_image">
-                  <img src={`http://localhost:1337${home.segurancaImagem.url}`} alt="Tecnologia image" />
+                  <img src={`${process.env.REACT_APP_BASE_URL}${home.segurancaImagem.url}`} alt="Tecnologia image" />
                 </div>
                 <div className="tecnologia_text">
                     <h3>{home.segurancaTitulo}</h3>

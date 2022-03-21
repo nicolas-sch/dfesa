@@ -17,7 +17,7 @@ export class News extends React.Component {
         
     componentDidMount = async () => {
         try {
-            const response = await axios.get('http://localhost:1337/homes');
+            const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
             this.setState({ homes: response.data });
         } catch (error) {
             this.setState({ error });
@@ -48,7 +48,7 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={`http://localhost:1337${home.noticiasImagem1.url}`} alt="Notícia 1" />
+                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem1.url}`} alt="Notícia 1" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
@@ -62,7 +62,7 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={`http://localhost:1337${home.noticiasImagem2.url}`} alt="Notícia 2" />
+                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem2.url}`} alt="Notícia 2" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
@@ -76,7 +76,7 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={`http://localhost:1337${home.noticiasImagem4.url}`} alt="Notícia 3" />
+                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem4.url}`} alt="Notícia 3" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">
@@ -90,7 +90,7 @@ export class News extends React.Component {
                     <div className="card">
                         <div className="news_card_image">
                             <Zoom>
-                            <img src={`http://localhost:1337${home.noticiasImagem4.url}`} alt="Notícia 4" />
+                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem4.url}`} alt="Notícia 4" />
                             </Zoom>
                         </div>
                         <div className="news_card_text">

@@ -12,7 +12,7 @@ export class FaqCanal extends React.Component {
     
     componentDidMount = async () => {
         try {
-            const response = await axios.get('http://localhost:1337/faqs');
+            const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/faqs`);
             this.setState({ faqs: response.data });
         } catch (error) {
             this.setState({ error });
@@ -31,7 +31,7 @@ export class FaqCanal extends React.Component {
           {this.state.faqs.map(faq => (
             <section className="faq_canal" id="codigo">
                 <div className="faq_bg">
-                    <img src={`http://localhost:1337${faq.faqCanalImagem.url}`} alt="BG Faq" />
+                    <img src={`${process.env.REACT_APP_BASE_URL}${faq.faqCanalImagem.url}`} alt="BG Faq" />
                 </div>
                 <div className="faq_canal_container">
                     <div className="faq_canal_title">

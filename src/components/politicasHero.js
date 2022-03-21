@@ -11,7 +11,7 @@ export class HeroPoliticas extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/politicas-de-privacidades');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/politicas-de-privacidades`);
       this.setState({ politicas: response.data });
     } catch (error) {
       this.setState({ error });

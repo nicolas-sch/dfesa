@@ -16,7 +16,7 @@ export class Utilidades extends React.Component {
       
       componentDidMount = async () => {
         try {
-          const response = await axios.get('http://localhost:1337/sustentabilidade-e-desenvolvimentos');
+          const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/sustentabilidade-e-desenvolvimentos`);
           this.setState({ sustentabilidades: response.data });
         } catch (error) {
           this.setState({ error });
@@ -48,12 +48,12 @@ export class Utilidades extends React.Component {
                             <p>{sustentabilidade.utilidadesBloco1Texto2}</p>
                         </div>
                         <div className="utilidades_image">
-                            <img src={`http://localhost:1337${sustentabilidade.utilidadesImagem1.url}`} alt="Utilidades imagem 1"/>
+                            <img src={`${process.env.REACT_APP_BASE_URL}${sustentabilidade.utilidadesImagem1.url}`} alt="Utilidades imagem 1"/>
                         </div>
                     </div>
                     <div className="utilidades_box">
                         <div className="utilidades_image">
-                            <img src={`http://localhost:1337${sustentabilidade.utilidadesImagem2.url}`} alt="Utilidades imagem 2"/>
+                            <img src={`${process.env.REACT_APP_BASE_URL}${sustentabilidade.utilidadesImagem2.url}`} alt="Utilidades imagem 2"/>
                         </div>
                         <div className="utilidades_text">
                             <p>{sustentabilidade.utilidadesBloco2Texto1}</p>
@@ -64,12 +64,12 @@ export class Utilidades extends React.Component {
                             <p>{sustentabilidade.utilidadesBloco3Texto1}</p>
                         </div>
                         <div className="utilidades_image">
-                            <img src={`http://localhost:1337${sustentabilidade.utilidadesImagem3.url}`}alt="Utilidades imagem 3"/>
+                            <img src={`${process.env.REACT_APP_BASE_URL}${sustentabilidade.utilidadesImagem3.url}`}alt="Utilidades imagem 3"/>
                         </div>
                     </div>
                     <div className="utilidades_box">
                         <div className="utilidades_image">
-                            <img src={`http://localhost:1337${sustentabilidade.utilidadesImagem4.url}`} alt="Utilidades imagem 4"/>
+                            <img src={`${process.env.REACT_APP_BASE_URL}${sustentabilidade.utilidadesImagem4.url}`} alt="Utilidades imagem 4"/>
                         </div>
                         <div className="utilidades_text">
                             <p>{sustentabilidade.utilidadesBloco4Texto1}</p>

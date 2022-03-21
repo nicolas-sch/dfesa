@@ -13,7 +13,7 @@ export class SobreFazemos extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/sobres');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/sobres`);
       this.setState({ sobres: response.data });
     } catch (error) {
       this.setState({ error });

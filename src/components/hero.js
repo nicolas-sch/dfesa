@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../styles/scss/main.css';
 
 export class Hero extends React.Component {
-  
+   
   state = {
     homes: [],
     error: null,
@@ -12,7 +12,7 @@ export class Hero extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/homes');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
       this.setState({ homes: response.data });
     } catch (error) {
       this.setState({ error });

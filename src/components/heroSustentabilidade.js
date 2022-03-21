@@ -11,7 +11,7 @@ export class HeroSustentabilidade extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/sustentabilidade-e-desenvolvimentos');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/sustentabilidade-e-desenvolvimentos`);
       this.setState({ sustentabilidades: response.data });
     } catch (error) {
       this.setState({ error });

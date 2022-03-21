@@ -13,7 +13,7 @@ export class AboutParque extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/sustentabilidade-e-desenvolvimentos');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/sustentabilidade-e-desenvolvimentos`);
       this.setState({ sustentabilidades: response.data });
     } catch (error) {
       this.setState({ error });
@@ -33,7 +33,7 @@ export class AboutParque extends React.Component {
           <section className="about_parque">
               <div className="about_parque_container">
                   <div className="about_parque_image">
-                      <img src={`http://localhost:1337${sustentabilidade.parqueImagem.url}`} alt="About Parque Image"/>
+                      <img src={`${process.env.REACT_APP_BASE_URL}${sustentabilidade.parqueImagem.url}`} alt="About Parque Image"/>
                   </div>
                   <div className="about_parque_text">
                       <h3>{sustentabilidade.parqueTitulo}</h3>

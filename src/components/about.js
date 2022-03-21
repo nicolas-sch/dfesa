@@ -13,7 +13,7 @@ export class About extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get('http://localhost:1337/homes');
+      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
       this.setState({ homes: response.data });
     } catch (error) {
       this.setState({ error });
@@ -42,7 +42,7 @@ export class About extends React.Component {
                       </p>
                   </div>
                   <div className="about_image">
-                    <img src={`http://localhost:1337${home.aboutImage.formats.large.url}`} alt="About image" />
+                    <img src={`${process.env.REACT_APP_BASE_URL}${home.aboutImage.formats.large.url}`} alt="About image" />
                   </div>
               </div>
           </section>

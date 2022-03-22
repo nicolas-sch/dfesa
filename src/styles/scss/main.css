@@ -1377,6 +1377,7 @@ body {
 }
 
 .news .news_container .news_cards .card .news_card_text h5 {
+  height: 180px;
   font-family: 'Roboto';
   font-size: 24px;
   font-style: normal;

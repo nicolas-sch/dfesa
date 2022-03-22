@@ -17,7 +17,7 @@ export class News extends React.Component {
         
     componentDidMount = async () => {
         try {
-            const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
+            const response = await axios.get('http://localhost:1337/homes');
             this.setState({ homes: response.data });
         } catch (error) {
             this.setState({ error });
@@ -53,7 +53,7 @@ export class News extends React.Component {
                         </div>
                         <div className="news_card_text">
                             <h5>{home.noticiasTitulo1}</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
+                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
                         </div>
                         <div className="news_card_link">
                             <a href="/noticias">Saiba mais</a>
@@ -67,7 +67,7 @@ export class News extends React.Component {
                         </div>
                         <div className="news_card_text">
                             <h5>{home.noticiasTitulo2}</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
+                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
                         </div>
                         <div className="news_card_link">
                             <a href="/noticias">Saiba mais</a>
@@ -81,7 +81,7 @@ export class News extends React.Component {
                         </div>
                         <div className="news_card_text">
                             <h5>{home.noticiasTitulo3}</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
+                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
                         </div>
                         <div className="news_card_link">
                             <a href="/noticias">Saiba mais</a>
@@ -95,7 +95,7 @@ export class News extends React.Component {
                         </div>
                         <div className="news_card_text">
                             <h5>{home.noticiasTitulo4}</h5>
-                            <p>Hac penatibus donec at id neque at. Convallis...</p>
+                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
                         </div>
                         <div className="news_card_link">
                             <a href="/noticias">Saiba mais</a>

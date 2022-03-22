@@ -1,0 +1,45 @@
+.hero_noticias {
+    width: 100%;
+    height: 761px;
+    background: url(../../assets/BG_Politicas_Desk.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+    top: 0;
+    z-index: 0;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: 480px) {height: auto; padding: 200px 0px; clip-path: none; margin-top: 0;}
+    .hero_noticias_container {
+        width: 100%;
+        display: flex;
+        max-width: 1216px;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        @media (max-width: 480px) {position: relative;}
+        .hero_noticias_text {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            h2 {
+                width: 760px;
+                font-family: 'Roboto';
+                font-size: 56px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 56px;
+                letter-spacing: 0em;
+                text-align: center;
+                color: #FAF9F9;
+                @media (max-width: 480px) {width: 90%;}
+            }
+        }
+    }
+}

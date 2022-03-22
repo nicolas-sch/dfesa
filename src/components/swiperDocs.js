@@ -1,6 +1,7 @@
 import React, { Component, useRef } from "react";
 import '../styles/scss/main.css';
 import ImageDoc from "../assets/Card_doc1.webp"
+import ImageDoc2 from "../assets/ImageDoc2.png"
 
 
 function Carousel() {
@@ -28,7 +29,7 @@ function Carousel() {
             <img src={ImageDoc} alt="image doc" />
           </div>
           <div className="info">
-            <span className="name">
+            <span className="name"> 
               Código de Ética &
               Conduta Gerdau
             </span>
@@ -38,46 +39,16 @@ function Carousel() {
         
         <div className="item">
           <div className="image">
-            <img src={ImageDoc} alt="image doc" />
+            <img src={ImageDoc2} alt="image doc" />
           </div>
           <div className="info">
             <span className="name">
-              Código de Ética &
-              Conduta para terceiros
+              Demonstrações Financeiras da Companhia
             </span>
-            <a href="../assets/Contatos_externos.pdf" download>Download</a>
+            <a href="../assets/DFRANCISCA_Dfsbal2021.pdf" download>Download</a>
           </div>
         </div>
         
-        <div className="item">
-          <div className="image">
-            <img src={ImageDoc} alt="image doc" />
-          </div>
-          <div className="info">
-            <span className="name">Teste</span>
-            <a href="">Download</a>
-          </div>
-        </div>
-        
-        <div className="item">
-          <div className="image">
-            <img src={ImageDoc} alt="image doc" />
-          </div>
-          <div className="info">
-            <span className="name">Documento 3</span>
-            <a href="">Download</a>
-          </div>
-        </div>
-        
-        <div className="item">
-          <div className="image">
-            <img src={ImageDoc} alt="image doc" />
-          </div>
-          <div className="info">
-            <span className="name">Documento 4</span>
-            <a href="">Download</a>
-          </div>
-        </div>
       </div>
       <div className="buttons">
         <button onClick={handleLeftClick}>

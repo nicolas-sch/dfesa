@@ -56,7 +56,7 @@ export class News extends React.Component {
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
-                            <a>Saiba mais</a>
+                            <a href="/noticias">Saiba mais</a>
                         </div>
                     </div>
                     <div className="card">
@@ -70,7 +70,7 @@ export class News extends React.Component {
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
-                            <a>Saiba mais</a>
+                            <a href="/noticias">Saiba mais</a>
                         </div>
                     </div>
                     <div className="card">
@@ -84,7 +84,7 @@ export class News extends React.Component {
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
-                            <a>Saiba mais</a>
+                            <a href="/noticias">Saiba mais</a>
                         </div>
                     </div>
                     <div className="card">
@@ -98,7 +98,7 @@ export class News extends React.Component {
                             <p>Hac penatibus donec at id neque at. Convallis...</p>
                         </div>
                         <div className="news_card_link">
-                            <a>Saiba mais</a>
+                            <a href="/noticias">Saiba mais</a>
                         </div>
                     </div>
                 </div>

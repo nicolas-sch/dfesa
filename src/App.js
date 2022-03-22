@@ -6,6 +6,7 @@ import Sustentabilidade from './pages/sustentabilidade';
 import Sobre from './pages/sobre';
 import Faq from './pages/faq';
 import Politicas from './pages/politicaseprivacidade';
+import Noticias from './pages/noticias';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path='/sobre' component={Sobre}/>
         <Route exact path='/faq' component={Faq}/>
         <Route exact path='/politicas' component={Politicas}/>
+        <Route exact path= '/noticias' component={Noticias}/>
       </Switch>
     </BrowserRouter>
     </>

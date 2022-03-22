@@ -85,7 +85,7 @@ export class BigNumbers extends React.Component {
                         <div className="potenci_box">
                             <div className="potenci_numbers">
                                 <h5>75.9<span>MW</span></h5>
-                                <p>Energia assegurada (média)</p>
+                                <p>Energia assegurada (média mensal)</p>
                             </div>
                             <div className="potenci_numbers">
                                 <h5>38,15<span>m</span></h5>

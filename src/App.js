@@ -7,8 +7,13 @@ import Sobre from './pages/sobre';
 import Faq from './pages/faq';
 import Politicas from './pages/politicaseprivacidade';
 import Noticias from './pages/noticias';
+import NoticiasDetails from './components/noticiasDetails';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function App() {
+  
+  
   return (
     <>
     <BrowserRouter>
@@ -19,6 +24,9 @@ function App() {
         <Route exact path='/faq' component={Faq}/>
         <Route exact path='/politicas' component={Politicas}/>
         <Route exact path= '/noticias' component={Noticias}/>
+        <Route path="/noticiasDetails/:id">
+          <NoticiasDetails />
+        </Route>
       </Switch>
     </BrowserRouter>
     </>

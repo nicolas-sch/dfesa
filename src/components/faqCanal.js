@@ -27,9 +27,9 @@ export class FaqCanal extends React.Component {
       return <div>An error occured: {error.message}</div>;
     }
     return (
-      <div>
+      <div id="codigo">
           {this.state.faqs.map(faq => (
-            <section className="faq_canal" id="codigo">
+            <section className="faq_canal" > 
                 <div className="faq_bg">
                     <img src={`${process.env.REACT_APP_BASE_URL}${faq.faqCanalImagem.url}`} alt="BG Faq" />
                 </div>

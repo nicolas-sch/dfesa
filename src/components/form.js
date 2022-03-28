@@ -84,7 +84,7 @@ export class ValiationForm extends Component {
 
   render() {
     return (
-    <section className="form_page">
+    <section className="form_page" id="form">
         <div className="form_layer"></div>
         <div className="form_bg">
             <img src={FormBg} alt="BG form" />

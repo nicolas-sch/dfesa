@@ -1,9 +1,11 @@
 import React, {useState, useEffect} from 'react';
-import { render } from 'react-dom';
+import {BrowserRouter as Router, Switch, Route, BrowserRouter, render, Link} from 'react-router-dom';
 import '../styles/scss/main.css';
 import Logo from '../assets/Logo.webp';
 import LogoMenu from '../assets/Logo_menu_desk.webp';
 import LogoMenu2 from '../assets/Logo_menu_desk2.webp';
+import { NavLink } from 'react-router-dom';
+import FaqCanal from './faqCanal';
 
 class Navbar extends React.Component {
   
@@ -58,7 +60,7 @@ class Navbar extends React.Component {
                         <div className="menu_links">
                                 <div className="menu_links_box">
                                 <div className="menu_logo">
-                                    <img src={LogoMenu} alt="Logo Menu" />
+                                    <a href="/"><img src={LogoMenu} alt="Logo Menu" /></a>
                                 </div>
                                     <a href="/sobre">Sobre</a>
                                     <a href="/sustentabilidadeedesenvolvimento">Sustentabilidade & desenvolvimento</a>
@@ -66,7 +68,7 @@ class Navbar extends React.Component {
                                 </div>
                                 <div className="menu_separator"></div>
                                 <div className="menu_links_box2">
-                                    <a href="/faq">FAQ e Contato</a>
+                                    <a href="/faq/#form">FAQ e Contato</a>
                                     <a href="/politicas">Política de Privacidade</a>
                                 </div>
                             </div>

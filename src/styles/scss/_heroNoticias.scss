@@ -1,45 +1,100 @@
-.hero_noticias {
+.noticias-cards-container {
     width: 100%;
-    height: 761px;
-    background: url(../../assets/BG_Politicas_Desk.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+    max-width: 1216px;
     display: flex;
-    position: relative;
-    top: 0;
-    z-index: 0;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    @media (max-width: 480px) {height: auto; padding: 200px 0px; clip-path: none; margin-top: 0;}
-    .hero_noticias_container {
-        width: 100%;
+    gap: 30px;
+    padding-top: 130px;
+    padding-bottom: 145px;
+    margin: 0 auto;
+    position: relative;
+    @media (max-width: 480px) {position: relative;}
+    .noticias-cards {
         display: flex;
-        max-width: 1216px;
-        align-items: center;
-        justify-content: center;
-        position: fixed;
-        @media (max-width: 480px) {position: relative;}
-        .hero_noticias_text {
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            gap: 30px;
-            h2 {
-                width: 760px;
-                font-family: 'Roboto';
-                font-size: 56px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 56px;
-                letter-spacing: 0em;
-                text-align: center;
-                color: #FAF9F9;
-                @media (max-width: 480px) {width: 90%;}
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 20px;
+        @media (max-width: 480px) {flex-direction: column; gap: 30px;}
+        @media (max-width: 820px) {flex-wrap: wrap; gap: 30px;}
+        .card {
+            width: 250px;
+            height: auto;
+            border: 1.5px solid #EB364E;
+            .noticias-card-image {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                img {
+                    -webkit-transition: 0.4s ease;
+                    transition: 0.4s ease;
+                }
+                
             }
+            .noticias-card-text {
+                width: 100%;
+                height: auto;
+                padding: 16px 26px;
+                h5 {
+                    width: 200px;
+                    height: 70px;
+                    overflow: hidden;
+                    font-family: 'Roboto';
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 34px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #161616;
+                }
+                p {
+                    height: 47px;
+                    width: 200px;
+                    font-family: 'Roboto';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    text-align: left;
+                    color: #161616;
+                    overflow: hidden;
+                }
+            }
+            .noticias-card-link {
+                display: flex;
+                align-items: flex-start;
+                padding-left: 26px;
+                padding-bottom: 16px;
+                button {
+                    width: 104px;
+                    height: 32px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Roboto';
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: 0em;
+                    color: #F6F6F6;
+                    cursor: pointer;
+                    background: #EB364E;
+                    text-decoration: none;
+                }
+            }
+            // .noticias-card-link:hover{
+            //     background: #F6F6F6;
+            //     color: #EB364E;
+            //     border: 1px solid #EB364E;
+            //     button {
+            //         color: #EB364E;
+            //     }
+            // }
         }
+        
     }
 }

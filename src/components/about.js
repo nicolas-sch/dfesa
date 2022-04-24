@@ -13,7 +13,8 @@ export class About extends React.Component {
   
   componentDidMount = async () => {
     try {
-      const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
+      const response = await axios.get('http://localhost:1337/homes');
+      //const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
       this.setState({ homes: response.data });
     } catch (error) {
       this.setState({ error });

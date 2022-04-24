@@ -1,109 +1,63 @@
 import React from 'react';
 import axios from 'axios';
 import '../styles/scss/main.css';
+import { Link } from 'react-router-dom';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom'; 
 import VectorNews from '../assets/Vector_news.webp';
 
-export class News extends React.Component {
+export class HeroNoticias extends React.Component {
     state = {
-        homes: [],
-        error: null,
-    };
-        
-    componentDidMount = async () => {
-        try {
-            const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/homes`);
-            this.setState({ homes: response.data });
-        } catch (error) {
-            this.setState({ error });
-        }
+      noticias: [],
+      error: null,
     };
     
-  render() {
-    const { error, home } = this.state;
-
-    // Print errors if any
-    if (error) {
-      return <div>An error occured: {error.message}</div>;
-    }
-    return (
-      <div>
-        {this.state.homes.map(home => (
-        <section className="news">
-            <div className="about_home_layer">
+    
+    componentDidMount = async () => {
+      try {
+        const response = await axios.get('http://localhost:1337/noticias');
+        //const response = await axios.get(`${process.env.REACT_APP_BASE_URL}/noticias`);
+        this.setState({ noticias: response.data.slice(0, 4) });
+      } catch (error) {
+        this.setState({ error });
+      }
+    };
+  
+    render() {
+      const { error, noticia} = this.state;
+  
+      // Print errors if any
+      if (error) {
+        return <div>An error occured: {error.message}</div>;
+      }
+      return (
+          <section className='noticias-page'>
+              <div className="about_home_layer">
                 <img src={VectorNews} alt="Vector News" />
             </div>
-            <div className="news_container">
-                <div className="news_text">
-                <Slide left>
-                    <h4>Notícias</h4>
-                </Slide>
+          <div className="noticias-cards-container">
+            {this.state.noticias.map(noticia => (
+                <div className="noticias-cards">
+                  <div className="card">
+                    <div className="noticias-card-image">
+                        <Zoom>
+                            <img src={`http://localhost:1337${noticia.imagemNoticia.url}`} alt="Notícia 1" />
+                        </Zoom>
+                    </div>
+                    <div className="noticias-card-text">
+                      <h5>{noticia.noticiasHeroTitulo}</h5>
+                      <p>{noticia.noticiaTexto}</p>
+                    </div>
+                    <div className="noticias-card-link">
+                      <Link to={`/noticias`}><button>Saiba mais</button></Link>
+                    </div>
+                  </div>
                 </div>
-                <div className="news_cards">
-                    <div className="card">
-                        <div className="news_card_image">
-                            <Zoom>
-                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem1.url}`} alt="Notícia 1" />
-                            </Zoom>
-                        </div>
-                        <div className="news_card_text">
-                            <h5>{home.noticiasTitulo1}</h5>
-                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
-                        </div>
-                        <div className="news_card_link">
-                            <a href="/noticias">Saiba mais</a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="news_card_image">
-                            <Zoom>
-                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem2.url}`} alt="Notícia 2" />
-                            </Zoom>
-                        </div>
-                        <div className="news_card_text">
-                            <h5>{home.noticiasTitulo2}</h5>
-                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
-                        </div>
-                        <div className="news_card_link">
-                            <a href="/noticias">Saiba mais</a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="news_card_image">
-                            <Zoom>
-                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem4.url}`} alt="Notícia 3" />
-                            </Zoom>
-                        </div>
-                        <div className="news_card_text">
-                            <h5>{home.noticiasTitulo3}</h5>
-                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
-                        </div>
-                        <div className="news_card_link">
-                            <a href="/noticias">Saiba mais</a>
-                        </div>
-                    </div>
-                    <div className="card">
-                        <div className="news_card_image">
-                            <Zoom>
-                            <img src={`${process.env.REACT_APP_BASE_URL}${home.noticiasImagem4.url}`} alt="Notícia 4" />
-                            </Zoom>
-                        </div>
-                        <div className="news_card_text">
-                            <h5>{home.noticiasTitulo4}</h5>
-                            {/* <p>Hac penatibus donec at id neque at. Convallis...</p> */}
-                        </div>
-                        <div className="news_card_link">
-                            <a href="/noticias">Saiba mais</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        ))} 
-      </div>
-    );
+            ))}
+          </div>
+          </section>
+      );
+    }
   }
-}
-
-export default News;
+  
+  export default HeroNoticias; 

@@ -22,7 +22,7 @@ export class Home extends React.Component {
         <Navbar />
         <Hero />
         <About />
-        <News />
+        <News /> 
         <BigNumbers />
         <Barragem />
         <Vertedouro />
